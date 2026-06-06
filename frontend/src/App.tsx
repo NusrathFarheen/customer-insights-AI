@@ -14,9 +14,7 @@ import {
   Filter, 
   Database,
   Cpu,
-  RefreshCw,
-  HelpCircle,
-  HelpCircle as StarIcon
+  RefreshCw
 } from 'lucide-react';
 import { 
   ResponsiveContainer, 
@@ -33,6 +31,10 @@ import {
   Area,
   CartesianGrid
 } from 'recharts';
+
+// Import exported weights & precalculated sample reviews
+import modelWeights from './model_weights.json';
+import sampleReviews from './sample_reviews.json';
 
 const BACKEND_URL = 'http://127.0.0.1:8000';
 
@@ -75,6 +77,25 @@ interface SandboxResult {
   key_terms: string[];
 }
 
+// English Stop Words List for in-browser TF-IDF
+const STOP_WORDS = new Set([
+  'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 'yours', 
+  'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 
+  'herself', 'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 
+  'what', 'which', 'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 
+  'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 
+  'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 
+  'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 'between', 'into', 
+  'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 'down', 
+  'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 
+  'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both', 'each', 'few', 'more', 
+  'most', 'other', 'some', 'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 
+  'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don', 'should', 'now', 'd', 
+  'll', 'm', 'o', 're', 've', 'y', 'ain', 'aren', 'couldn', 'didn', 'doesn', 'hadn', 
+  'hasn', 'haven', 'isn', 'ma', 'mightn', 'mustn', 'needn', 'shan', 'shouldn', 'wasn', 
+  'weren', 'won', 'wouldn'
+]);
+
 function App() {
   // Navigation
   const [activeTab, setActiveTab] = useState<'dashboard' | 'sandbox' | 'raw_data' | 'upload'>('dashboard');
@@ -101,7 +122,7 @@ function App() {
   const [topicFilter, setTopicFilter] = useState<string>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
 
-  // Check backend health & Load sample data on mount
+  // Check backend health & Load initial data
   useEffect(() => {
     checkBackendHealth();
   }, []);
@@ -113,36 +134,177 @@ function App() {
         const data = await response.json();
         setBackendStatus(data);
         setApiOnline(true);
-        // If API is ready and we don't have data, auto-load sample data
-        if (data.status === 'ready' && !bulkData) {
-          loadSampleDataset();
-        }
+        // Load data from FastAPI backend
+        loadSampleDataset(true);
       } else {
         setApiOnline(false);
+        loadSampleDataset(false); // Fallback to client-side
       }
     } catch (err) {
       setApiOnline(false);
-      setError('Cannot connect to the ML Backend. Please ensure python uvicorn server is running on port 8000.');
+      loadSampleDataset(false); // Fallback to client-side
     }
   };
 
-  const loadSampleDataset = async () => {
+  const loadSampleDataset = async (useAPI: boolean) => {
     setLoading(true);
     setError(null);
-    try {
-      const response = await fetch(`${BACKEND_URL}/api/analyze/sample`);
-      if (response.ok) {
-        const data = await response.json();
-        setBulkData(data);
-      } else {
-        const errData = await response.json();
-        setError(errData.detail || 'Failed to load sample dataset.');
+    
+    if (useAPI) {
+      try {
+        const response = await fetch(`${BACKEND_URL}/api/analyze/sample`);
+        if (response.ok) {
+          const data = await response.json();
+          setBulkData(data);
+          return;
+        }
+      } catch (err) {
+        // Silent catch to fallback
       }
-    } catch (err) {
-      setError('Failed to fetch sample dataset from backend.');
-    } finally {
-      setLoading(false);
     }
+    
+    // Fallback: load static JSON dataset directly in the browser
+    setTimeout(() => {
+      try {
+        const aggregates = computeAggregates(sampleReviews as ReviewItem[]);
+        setBulkData(aggregates);
+      } catch (err) {
+        setError('Failed to load local sample dataset.');
+      } finally {
+        setLoading(false);
+      }
+    }, 500);
+  };
+
+  // CLIENT-SIDE INFERENCE ENGINE
+  const runLocalInference = (text: string): { sentiment: string; confidence: number; topic: string; key_terms: string[] } => {
+    // 1. Text Preprocessing & Tokenization
+    const cleaned = text.toLowerCase().replace(/[^a-zA-Z\s]/g, '').replace(/\s+/g, ' ').trim();
+    const tokens = cleaned.split(' ').filter(t => !STOP_WORDS.has(t) && t.length > 1);
+
+    const vocab = modelWeights.vocabulary as Record<string, number>;
+    const idf = modelWeights.idf as number[];
+    const nFeatures = idf.length;
+    
+    // 2. TF-IDF Transform
+    const vector = new Array(nFeatures).fill(0);
+    if (tokens.length > 0) {
+      const tf: Record<string, number> = {};
+      for (const t of tokens) {
+        if (t in vocab) {
+          tf[t] = (tf[t] || 0) + 1;
+        }
+      }
+      for (const [word, freq] of Object.entries(tf)) {
+        const idx = vocab[word];
+        const tfVal = 1 + Math.log(freq);
+        vector[idx] = tfVal * idf[idx];
+      }
+      
+      // L2 Normalization
+      let sumSq = 0;
+      for (let i = 0; i < nFeatures; i++) sumSq += vector[i] * vector[i];
+      const norm = Math.sqrt(sumSq);
+      if (norm > 0) {
+        for (let i = 0; i < nFeatures; i++) vector[i] /= norm;
+      }
+    }
+
+    // 3. Supervised Naive Bayes Sentiment Prediction
+    const classes = modelWeights.classes as string[];
+    const classPrior = modelWeights.class_log_prior as number[];
+    const featureLogProb = modelWeights.feature_log_prob as number[][];
+    
+    const logProbs = [...classPrior];
+    for (let c = 0; c < classes.length; c++) {
+      for (let f = 0; f < nFeatures; f++) {
+        logProbs[c] += vector[f] * featureLogProb[c][f];
+      }
+    }
+    
+    // Softmax to normalize log probabilities into confidence scores [0, 1]
+    const maxLog = Math.max(...logProbs);
+    const exps = logProbs.map(v => Math.exp(v - maxLog));
+    const sumExps = exps.reduce((a, b) => a + b, 0);
+    const probabilities = exps.map(v => v / sumExps);
+    
+    const predClassIdx = probabilities.indexOf(Math.max(...probabilities));
+    const sentiment = classes[predClassIdx];
+    const confidence = probabilities[predClassIdx];
+
+    // 4. Unsupervised K-Means Topic Assignment
+    const centroids = modelWeights.cluster_centers as number[][];
+    let minClusterIdx = 0;
+    let minDist = Infinity;
+    
+    for (let c = 0; c < centroids.length; c++) {
+      let sumSqDiff = 0;
+      for (let f = 0; f < nFeatures; f++) {
+        const diff = vector[f] - centroids[c][f];
+        sumSqDiff += diff * diff;
+      }
+      const dist = Math.sqrt(sumSqDiff);
+      if (dist < minDist) {
+        minDist = dist;
+        minClusterIdx = c;
+      }
+    }
+    const topic = (modelWeights.cluster_topic_map as Record<string, string>)[String(minClusterIdx)] || 'General';
+
+    // 5. Explainer Key Terms
+    const featureNames = modelWeights.feature_names as string[];
+    const tuples: { word: string; val: number }[] = [];
+    for (let f = 0; f < nFeatures; f++) {
+      if (vector[f] > 0) {
+        tuples.push({ word: featureNames[f], val: vector[f] });
+      }
+    }
+    const keyTerms = tuples
+      .sort((a, b) => b.val - a.val)
+      .slice(0, 5)
+      .map(item => item.word);
+
+    return { sentiment, confidence, topic, key_terms: keyTerms };
+  };
+
+  // Helper to compute aggregates from raw reviews array (mimicking Python backend)
+  const computeAggregates = (reviews: ReviewItem[]): BulkData => {
+    const total = reviews.length;
+    if (total === 0) {
+      return {
+        total_reviews: 0,
+        sentiment_distribution: {},
+        topic_distribution: {},
+        category_distribution: {},
+        rating_distribution: {},
+        average_rating: 0,
+        reviews: []
+      };
+    }
+
+    const sentDist: Record<string, number> = { positive: 0, neutral: 0, negative: 0 };
+    const topicDist: Record<string, number> = {};
+    const catDist: Record<string, number> = {};
+    const ratingDist: Record<string, number> = { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 };
+    let ratingSum = 0;
+
+    reviews.forEach(review => {
+      sentDist[review.sentiment] = (sentDist[review.sentiment] || 0) + 1;
+      topicDist[review.topic] = (topicDist[review.topic] || 0) + 1;
+      catDist[review.category] = (catDist[review.category] || 0) + 1;
+      ratingDist[String(review.rating)] = (ratingDist[String(review.rating)] || 0) + 1;
+      ratingSum += review.rating;
+    });
+
+    return {
+      total_reviews: total,
+      sentiment_distribution: sentDist,
+      topic_distribution: topicDist,
+      category_distribution: catDist,
+      rating_distribution: ratingDist,
+      average_rating: ratingSum / total,
+      reviews
+    };
   };
 
   // Run Sandbox prediction
@@ -152,24 +314,40 @@ function App() {
     
     setSandboxLoading(true);
     setError(null);
-    try {
-      const response = await fetch(`${BACKEND_URL}/api/analyze/single`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: sandboxInput })
-      });
-      if (response.ok) {
-        const data = await response.json();
-        setSandboxResult(data);
-      } else {
-        const errData = await response.json();
-        setError(errData.detail || 'Sandbox analysis failed.');
+
+    // If API is online, use FastAPI
+    if (apiOnline) {
+      try {
+        const response = await fetch(`${BACKEND_URL}/api/analyze/single`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: sandboxInput })
+        });
+        if (response.ok) {
+          const data = await response.json();
+          setSandboxResult(data);
+          setSandboxLoading(false);
+          return;
+        }
+      } catch (err) {
+        // Fallback silently to client-side
       }
-    } catch (err) {
-      setError('Connection to backend failed during analysis.');
-    } finally {
-      setSandboxLoading(false);
     }
+
+    // Fallback: run inference in-browser
+    setTimeout(() => {
+      try {
+        const result = runLocalInference(sandboxInput);
+        setSandboxResult({
+          text: sandboxInput,
+          ...result
+        });
+      } catch (err) {
+        setError('Error running client-side inference.');
+      } finally {
+        setSandboxLoading(false);
+      }
+    }, 200);
   };
 
   // File Upload Handlers
@@ -189,17 +367,17 @@ function App() {
     setDragActive(false);
     
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      uploadCSV(e.dataTransfer.files[0]);
+      processFile(e.dataTransfer.files[0]);
     }
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      uploadCSV(e.target.files[0]);
+      processFile(e.target.files[0]);
     }
   };
 
-  const uploadCSV = async (file: File) => {
+  const processFile = async (file: File) => {
     if (!file.name.endsWith('.csv')) {
       setError('Please upload a valid CSV file.');
       return;
@@ -207,27 +385,107 @@ function App() {
 
     setLoading(true);
     setError(null);
-    const formData = new FormData();
-    formData.append('file', file);
 
-    try {
-      const response = await fetch(`${BACKEND_URL}/api/analyze/bulk`, {
-        method: 'POST',
-        body: formData
-      });
-      if (response.ok) {
-        const data = await response.json();
-        setBulkData(data);
-        setActiveTab('dashboard'); // Redirect to dashboard to see results
-      } else {
-        const errData = await response.json();
-        setError(errData.detail || 'Failed to process CSV file.');
+    // If API is online, upload via FastAPI
+    if (apiOnline) {
+      const formData = new FormData();
+      formData.append('file', file);
+      try {
+        const response = await fetch(`${BACKEND_URL}/api/analyze/bulk`, {
+          method: 'POST',
+          body: formData
+        });
+        if (response.ok) {
+          const data = await response.json();
+          setBulkData(data);
+          setActiveTab('dashboard');
+          setLoading(false);
+          return;
+        }
+      } catch (err) {
+        // Fallback silently to client-side
       }
-    } catch (err) {
-      setError('Error uploading file to the backend.');
-    } finally {
-      setLoading(false);
     }
+
+    // Fallback: Parse CSV and run predictions entirely inside the browser
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const text = e.target?.result as string;
+        if (!text) throw new Error('Empty file content.');
+        
+        const lines = text.split(/\r?\n/);
+        if (lines.length <= 1) throw new Error('CSV must contain a header row and at least one review.');
+        
+        const headers = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g, ''));
+        
+        // Find review column index
+        let textColIdx = headers.findIndex(h => /text|review|body|content/i.test(h));
+        if (textColIdx === -1) textColIdx = 0; // Fallback to first column
+        
+        const catColIdx = headers.findIndex(h => /category/i.test(h));
+        const ratingColIdx = headers.findIndex(h => /rating/i.test(h));
+        const dateColIdx = headers.findIndex(h => /date/i.test(h));
+        
+        const parsedReviews: ReviewItem[] = [];
+        for (let i = 1; i < lines.length; i++) {
+          const line = lines[i];
+          if (!line.trim()) continue;
+          
+          // Regex-based CSV splitter to handle commas inside quoted review fields
+          const cols: string[] = [];
+          let insideQuote = false;
+          let currentVal = '';
+          for (let charIdx = 0; charIdx < line.length; charIdx++) {
+            const char = line[charIdx];
+            if (char === '"') {
+              insideQuote = !insideQuote;
+            } else if (char === ',' && !insideQuote) {
+              cols.push(currentVal.trim().replace(/^"|"$/g, ''));
+              currentVal = '';
+            } else {
+              currentVal += char;
+            }
+          }
+          cols.push(currentVal.trim().replace(/^"|"$/g, ''));
+          
+          const reviewText = cols[textColIdx] || '';
+          if (!reviewText.trim()) continue;
+          
+          const rating = ratingColIdx !== -1 && cols[ratingColIdx] ? parseInt(cols[ratingColIdx]) || 3 : 3;
+          const category = catColIdx !== -1 && cols[catColIdx] ? cols[catColIdx] : 'General';
+          const date = dateColIdx !== -1 && cols[dateColIdx] ? cols[dateColIdx] : new Date().toISOString().split('T')[0];
+          
+          // Run client-side inference
+          const inf = runLocalInference(reviewText);
+          
+          parsedReviews.push({
+            review_id: `LOCAL_${i}`,
+            category,
+            rating,
+            review_text: reviewText,
+            sentiment: inf.sentiment,
+            topic: inf.topic,
+            helpful_votes: 0,
+            date,
+            key_terms: inf.key_terms
+          });
+        }
+        
+        const aggregates = computeAggregates(parsedReviews);
+        setBulkData(aggregates);
+        setActiveTab('dashboard');
+      } catch (err: any) {
+        setError(err.message || 'Error parsing CSV file locally. Verify format.');
+      } finally {
+        setLoading(false);
+      }
+    };
+    reader.onerror = () => {
+      setError('FileReader encountered an error reading the CSV.');
+      setLoading(false);
+    };
+    reader.readAsText(file);
   };
 
   // Pre-process chart data
@@ -251,7 +509,6 @@ function App() {
 
   const getRatingChartData = () => {
     if (!bulkData) return [];
-    // ratings are typically strings "1" to "5" in backend JSON
     const dist = bulkData.rating_distribution;
     return [1, 2, 3, 4, 5].map(rating => ({
       rating: `${rating} ★`,
@@ -261,7 +518,6 @@ function App() {
 
   const getTimelineChartData = () => {
     if (!bulkData) return [];
-    // Group reviews by date
     const dateCounts: Record<string, { positive: number, neutral: number, negative: number }> = {};
     
     bulkData.reviews.forEach(review => {
@@ -301,7 +557,6 @@ function App() {
     });
   };
 
-  // Helper lists for filters
   const getUniqueCategories = () => {
     if (!bulkData) return [];
     return Array.from(new Set(bulkData.reviews.map(r => r.category)));
@@ -312,7 +567,6 @@ function App() {
     return Array.from(new Set(bulkData.reviews.map(r => r.topic)));
   };
 
-  // Sentiment ratio calculations for cards
   const getSentimentStats = () => {
     if (!bulkData) return { posPercent: 0, neuPercent: 0, negPercent: 0 };
     const total = bulkData.total_reviews;
@@ -324,7 +578,7 @@ function App() {
     };
   };
 
-  const { posPercent, neuPercent, negPercent } = getSentimentStats();
+  const stats = getSentimentStats();
   const filteredReviews = getFilteredReviews();
 
   return (
@@ -337,46 +591,17 @@ function App() {
         </div>
         
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          {apiOnline && (
-            <button className="upload-btn" style={{ marginTop: 0, padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)' }} onClick={loadSampleDataset} disabled={loading}>
-              <RefreshCw size={14} className={loading ? 'loading-pulse' : ''} style={{ marginRight: '0.25rem' }} />
-              Reload Sample
-            </button>
-          )}
+          <button className="upload-btn" style={{ marginTop: 0, padding: '0.4rem 0.8rem', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--glass-border)' }} onClick={() => loadSampleDataset(apiOnline)} disabled={loading}>
+            <RefreshCw size={14} className={loading ? 'loading-pulse' : ''} style={{ marginRight: '0.25rem' }} />
+            Reload Dataset
+          </button>
+          
           <div className="model-status-badge">
-            <span className="status-dot" style={{ backgroundColor: apiOnline ? 'var(--sentiment-pos)' : 'var(--sentiment-neg)', boxShadow: apiOnline ? '0 0 8px var(--sentiment-pos)' : '0 0 8px var(--sentiment-neg)' }}></span>
-            <span>{apiOnline ? 'Backend Online' : 'Backend Offline'}</span>
+            <span className="status-dot" style={{ backgroundColor: apiOnline ? 'var(--sentiment-pos)' : 'var(--accent)', boxShadow: apiOnline ? '0 0 8px var(--sentiment-pos)' : '0 0 8px var(--accent)' }}></span>
+            <span>{apiOnline ? 'Cloud Backend Online' : 'In-Browser ML Engine'}</span>
           </div>
         </div>
       </header>
-
-      {/* Global Error Banner */}
-      {error && (
-        <div className="alert">
-          <AlertTriangle size={18} />
-          <div>{error}</div>
-        </div>
-      )}
-
-      {/* Tab Navigation */}
-      <nav className="tabs-navigation">
-        <button className={`tab-btn ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => setActiveTab('dashboard')}>
-          <BarChart3 size={16} />
-          Dashboard Overview
-        </button>
-        <button className={`tab-btn ${activeTab === 'sandbox' ? 'active' : ''}`} onClick={() => setActiveTab('sandbox')}>
-          <Terminal size={16} />
-          Live Sandbox
-        </button>
-        <button className={`tab-btn ${activeTab === 'raw_data' ? 'active' : ''}`} onClick={() => setActiveTab('raw_data')}>
-          <Table size={16} />
-          Feedback Explorer
-        </button>
-        <button className={`tab-btn ${activeTab === 'upload' ? 'active' : ''}`} onClick={() => setActiveTab('upload')}>
-          <UploadCloud size={16} />
-          Bulk Upload
-        </button>
-      </nav>
 
       {/* View Loader */}
       {loading && (
@@ -386,8 +611,36 @@ function App() {
         </div>
       )}
 
+      {/* Global Error Banner */}
+      {error && (
+        <div className="alert">
+          <AlertTriangle size={18} />
+          <div>{error}</div>
+        </div>
+      )}
+
       {!loading && (
         <main className="main-content">
+          
+          {/* Tab Navigation */}
+          <nav className="tabs-navigation">
+            <button className={`tab-btn ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => setActiveTab('dashboard')}>
+              <BarChart3 size={16} />
+              Dashboard Overview
+            </button>
+            <button className={`tab-btn ${activeTab === 'sandbox' ? 'active' : ''}`} onClick={() => setActiveTab('sandbox')}>
+              <Terminal size={16} />
+              Live Sandbox
+            </button>
+            <button className={`tab-btn ${activeTab === 'raw_data' ? 'active' : ''}`} onClick={() => setActiveTab('raw_data')}>
+              <Table size={16} />
+              Feedback Explorer
+            </button>
+            <button className={`tab-btn ${activeTab === 'upload' ? 'active' : ''}`} onClick={() => setActiveTab('upload')}>
+              <UploadCloud size={16} />
+              Bulk Upload
+            </button>
+          </nav>
           
           {/* 1. DASHBOARD VIEW */}
           {activeTab === 'dashboard' && (
@@ -414,7 +667,7 @@ function App() {
                     </div>
                     <div className="glass-card stat-card">
                       <span className="stat-title">Positive Ratio</span>
-                      <span className="stat-value" style={{ color: 'var(--sentiment-pos)' }}>{posPercent}%</span>
+                      <span className="stat-value" style={{ color: 'var(--sentiment-pos)' }}>{stats.posPercent}%</span>
                       <div className="stat-footer">
                         <Smile size={12} style={{ color: 'var(--sentiment-pos)' }} />
                         <span>Positive Sentiments</span>
@@ -422,7 +675,7 @@ function App() {
                     </div>
                     <div className="glass-card stat-card">
                       <span className="stat-title">Negative Ratio</span>
-                      <span className="stat-value" style={{ color: 'var(--sentiment-neg)' }}>{negPercent}%</span>
+                      <span className="stat-value" style={{ color: 'var(--sentiment-neg)' }}>{stats.negPercent}%</span>
                       <div className="stat-footer">
                         <Frown size={12} style={{ color: 'var(--sentiment-neg)' }} />
                         <span>Negative Sentiments</span>
@@ -565,24 +818,22 @@ function App() {
                   </div>
 
                   {/* Summary Details Badge */}
-                  {backendStatus?.model_details && (
-                    <div className="glass-card" style={{ padding: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <Cpu size={16} style={{ color: 'var(--primary)' }} />
-                        <span>Sentiment Model: **Multinomial Naive Bayes** (Accuracy: **{(backendStatus.model_details.sentiment_accuracy * 100).toFixed(1)}%**)</span>
-                      </div>
-                      <div>
-                        <span>Trained at: **{backendStatus.model_details.trained_at}**</span>
-                      </div>
+                  <div className="glass-card" style={{ padding: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <Cpu size={16} style={{ color: 'var(--primary)' }} />
+                      <span>Classifier Engine: **Multinomial Naive Bayes** (Accuracy: **{((backendStatus?.model_details?.sentiment_accuracy || modelWeights.accuracy) * 100).toFixed(1)}%**)</span>
                     </div>
-                  )}
+                    <div>
+                      <span>Mode: **{apiOnline ? 'Python FastAPI' : 'Serverless Client-Side JS'}**</span>
+                    </div>
+                  </div>
                 </>
               ) : (
                 <div className="glass-card" style={{ padding: '4rem', textAlign: 'center' }}>
                   <Database size={48} style={{ color: 'var(--text-muted)', marginBottom: '1rem', opacity: 0.5 }} />
                   <h3>No Customer Feedback Loaded</h3>
                   <p style={{ color: 'var(--text-secondary)', margin: '0.5rem 0 1.5rem' }}>Start by loading our pre-trained sample dataset or upload a CSV review file.</p>
-                  <button className="upload-btn" onClick={loadSampleDataset}>Load Pre-trained Sample</button>
+                  <button className="upload-btn" onClick={() => loadSampleDataset(apiOnline)}>Load Pre-trained Sample</button>
                 </div>
               )}
             </>
@@ -596,7 +847,7 @@ function App() {
                 Real-time Sandbox & Explainer
               </h2>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '2.5rem', fontSize: '0.95rem' }}>
-                Type in any customer feedback or comment. Our custom pipeline will preprocess the text, perform vectorization, run predictions on both sentiment and topic clustering, and output explainable TF-IDF keywords.
+                Type in any customer feedback or comment. Our in-browser ML pipeline will preprocess the text, perform vectorization, run predictions on both sentiment and topic clustering, and output explainable TF-IDF keywords.
               </p>
 
               <div className="sandbox-layout">
@@ -820,7 +1071,7 @@ function App() {
               </h2>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '2.5rem', fontSize: '0.95rem' }}>
                 Analyze new datasets instantly. Drop a CSV file containing customer feedback reviews here. 
-                Our backend will automatically identify the text column, classify the sentiment, assign K-Means topic clusters, extract key vocabulary weights, and rebuild your entire dashboard analytics.
+                Our local engine will automatically parse the headers, predict the sentiment and topic in-browser for each row, and regenerate your complete visual analytics.
               </p>
 
               <div 
