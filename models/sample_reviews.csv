@@ -1,0 +1,1001 @@
+review_id,category,rating,review_text,sentiment,helpful_votes,date
+REV_0001,Electronics,3,"It is decent for the price. Not amazing, but does the job fine. The overpriced aspect could be improved.",neutral,5,2026-05-20
+REV_0002,Electronics,3,"It is decent for the price. Not amazing, but does the job fine. The delivery aspect could be improved.",neutral,12,2026-05-24
+REV_0003,Electronics,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard return experience overall.,negative,44,2026-02-10
+REV_0004,Books & Media,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the durable.,positive,22,2026-01-25
+REV_0005,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. Standard price experience overall.,negative,35,2026-01-21
+REV_0006,Clothing & Fashion,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the overpriced, I must say it was notable.",positive,5,2026-03-16
+REV_0007,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. Standard refund experience overall.,negative,23,2026-02-11
+REV_0008,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the arrived.,positive,24,2026-04-29
+REV_0009,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the cheap, I must say it was notable.",positive,25,2026-03-22
+REV_0010,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. Standard overpriced experience overall.,positive,16,2026-02-06
+REV_0011,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the expensive.",positive,32,2026-02-05
+REV_0012,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The arrived aspect could be improved.,positive,24,2026-01-17
+REV_0013,Electronics,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the worth, I must say it was notable.",positive,48,2026-05-18
+REV_0014,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Standard shipped experience overall.,positive,32,2026-03-09
+REV_0015,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the shipped.,negative,48,2026-04-06
+REV_0016,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard carrier experience overall.",positive,15,2026-03-20
+REV_0017,Clothing & Fashion,4,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard delivery experience overall.,positive,42,2026-02-02
+REV_0018,Books & Media,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the sturdy.",positive,34,2026-02-24
+REV_0019,Books & Media,1,Worst experience ever. The product didn't match the description at all. I was particularly focused on the expensive.,negative,15,2026-01-31
+REV_0020,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Especially satisfied with the packaging.,positive,14,2026-01-16
+REV_0021,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Especially satisfied with the value.,positive,34,2026-02-24
+REV_0022,Clothing & Fashion,4,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard return experience overall.,positive,6,2026-01-25
+REV_0023,Electronics,2,"Okay product, but I feel like it is slightly overpriced for what it offers. Standard contact experience overall.",neutral,3,2026-01-26
+REV_0024,Books & Media,5,Super fast shipping! The item arrived in perfect condition and is top notch. The packaging aspect could be improved.,positive,27,2026-02-05
+REV_0025,Electronics,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard build experience overall.,positive,41,2026-01-13
+REV_0026,Books & Media,1,Terrible quality. It broke within the first day of use. Do not buy! The packaging aspect could be improved.,negative,25,2026-02-24
+REV_0027,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. Standard service experience overall.,negative,27,2026-03-15
+REV_0028,Electronics,3,"The size is smaller than expected, but the quality is fine otherwise. The support aspect could be improved.",neutral,47,2026-05-29
+REV_0029,Clothing & Fashion,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Especially satisfied with the shipping.",neutral,32,2026-01-15
+REV_0030,Clothing & Fashion,5,Excellent product. It works perfectly and the design is very sleek and modern. The delivery aspect could be improved.,positive,38,2026-05-29
+REV_0031,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the seller.,positive,16,2026-03-03
+REV_0032,Electronics,5,"Great value for money. It does exactly what it says and feels premium. Regarding the seller, I must say it was notable.",positive,34,2026-01-19
+REV_0033,Home & Kitchen,4,"Great value for money. It does exactly what it says and feels premium. Regarding the cheap, I must say it was notable.",positive,10,2026-03-14
+REV_0034,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the worth, I must say it was notable.",positive,8,2026-01-27
+REV_0035,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the sturdy.,positive,43,2026-02-22
+REV_0036,Books & Media,3,"The product works, but the customer service was not very helpful. Regarding the refund, I must say it was notable.",neutral,2,2026-03-12
+REV_0037,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard money experience overall.,positive,0,2026-05-24
+REV_0038,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the carrier.,positive,2,2026-02-02
+REV_0039,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The overpriced aspect could be improved.,positive,26,2026-05-24
+REV_0040,Electronics,2,Waste of money. Extremely slow shipping and the item is defective. The material aspect could be improved.,negative,47,2026-02-15
+REV_0041,Electronics,2,I would not recommend this. It stopped working after a week of light use. The sturdy aspect could be improved.,negative,2,2026-04-08
+REV_0042,Clothing & Fashion,1,Worst experience ever. The product didn't match the description at all. I was particularly focused on the broke.,negative,1,2026-02-27
+REV_0043,Home & Kitchen,2,"Not bad, not great. Standard product that meets basic expectations. Regarding the cost, I must say it was notable.",neutral,41,2026-03-31
+REV_0044,Home & Kitchen,2,"The size is smaller than expected, but the quality is fine otherwise. Regarding the price, I must say it was notable.",neutral,37,2026-02-15
+REV_0045,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the delivery.,negative,38,2026-04-22
+REV_0046,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the return.,negative,33,2026-01-01
+REV_0047,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard cheap experience overall.,negative,42,2026-03-22
+REV_0048,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the expensive.,negative,8,2026-05-22
+REV_0049,Electronics,5,Five stars! The customer service was also very helpful and responsive. Standard sturdy experience overall.,positive,18,2026-03-19
+REV_0050,Clothing & Fashion,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard deal experience overall.,positive,30,2026-05-11
+REV_0051,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the shipped.,negative,48,2026-01-24
+REV_0052,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. The durable aspect could be improved.,positive,39,2026-05-02
+REV_0053,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the contact.,negative,25,2026-05-07
+REV_0054,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The late aspect could be improved.,positive,35,2026-01-13
+REV_0055,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard support experience overall.,positive,39,2026-04-24
+REV_0056,Books & Media,2,Frustrating to use. The instructions are unclear and it is very fragile. The helpful aspect could be improved.,negative,16,2026-04-26
+REV_0057,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the return.,negative,17,2026-03-02
+REV_0058,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The arrived aspect could be improved.",positive,4,2026-02-24
+REV_0059,Books & Media,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the contact, I must say it was notable.",positive,49,2026-04-10
+REV_0060,Home & Kitchen,2,"It is decent for the price. Not amazing, but does the job fine. Regarding the helpful, I must say it was notable.",neutral,26,2026-04-10
+REV_0061,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. The broke aspect could be improved.",neutral,24,2026-01-08
+REV_0062,Electronics,4,Five stars! The customer service was also very helpful and responsive. The broke aspect could be improved.,positive,37,2026-04-11
+REV_0063,Clothing & Fashion,2,"It is decent for the price. Not amazing, but does the job fine. The late aspect could be improved.",neutral,16,2026-01-13
+REV_0064,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the seller.,positive,48,2026-03-13
+REV_0065,Electronics,1,I would not recommend this. It stopped working after a week of light use. Standard value experience overall.,negative,14,2026-03-31
+REV_0066,Clothing & Fashion,4,"It is decent for the price. Not amazing, but does the job fine. The packaging aspect could be improved.",neutral,8,2026-03-03
+REV_0067,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the broke.,positive,49,2026-01-30
+REV_0068,Books & Media,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the shipping.,negative,45,2026-04-12
+REV_0069,Electronics,4,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the build.,positive,50,2026-05-25
+REV_0070,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the seller, I must say it was notable.",positive,26,2026-01-04
+REV_0071,Books & Media,2,Very disappointed. The product looks cheap and does not work properly. Standard seller experience overall.,negative,46,2026-02-15
+REV_0072,Home & Kitchen,4,"The product works, but the customer service was not very helpful. Standard helpful experience overall.",neutral,15,2026-03-24
+REV_0073,Books & Media,2,Very disappointed. The product looks cheap and does not work properly. The deal aspect could be improved.,negative,1,2026-03-28
+REV_0074,Home & Kitchen,5,Super fast shipping! The item arrived in perfect condition and is top notch. The broke aspect could be improved.,positive,17,2026-03-29
+REV_0075,Books & Media,1,"Poor build quality. The plastic feels cheap and it makes a weird noise. Regarding the packaging, I must say it was notable.",negative,35,2026-05-06
+REV_0076,Clothing & Fashion,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the helpful, I must say it was notable.",negative,44,2026-04-14
+REV_0077,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the deal.,positive,21,2026-05-21
+REV_0078,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the cost.,positive,7,2026-03-22
+REV_0079,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. Standard durable experience overall.,negative,12,2026-01-26
+REV_0080,Clothing & Fashion,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the sturdy, I must say it was notable.",positive,2,2026-03-12
+REV_0081,Electronics,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard money experience overall.,negative,18,2026-05-27
+REV_0082,Books & Media,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the money, I must say it was notable.",positive,4,2026-01-30
+REV_0083,Home & Kitchen,4,Best purchase I have made in a long time. Highly recommend to everyone. The arrived aspect could be improved.,positive,15,2026-01-22
+REV_0084,Books & Media,5,Five stars! The customer service was also very helpful and responsive. Standard defective experience overall.,positive,37,2026-03-18
+REV_0085,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. The delivery aspect could be improved.,negative,10,2026-01-21
+REV_0086,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the arrived, I must say it was notable.",positive,2,2026-03-16
+REV_0087,Clothing & Fashion,4,Great value for money. It does exactly what it says and feels premium. The customer aspect could be improved.,positive,7,2026-04-19
+REV_0088,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Regarding the money, I must say it was notable.",neutral,18,2026-05-26
+REV_0089,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the expensive.,positive,5,2026-04-23
+REV_0090,Electronics,3,"Not bad, not great. Standard product that meets basic expectations. Regarding the cost, I must say it was notable.",neutral,36,2026-03-10
+REV_0091,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the helpful.,positive,5,2026-05-06
+REV_0092,Home & Kitchen,4,"Five stars! The customer service was also very helpful and responsive. Regarding the cheap, I must say it was notable.",positive,44,2026-04-16
+REV_0093,Home & Kitchen,5,"Five stars! The customer service was also very helpful and responsive. Regarding the fast, I must say it was notable.",positive,49,2026-01-30
+REV_0094,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard fast experience overall.",positive,40,2026-05-08
+REV_0095,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Especially satisfied with the sturdy.,positive,44,2026-04-23
+REV_0096,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. I was particularly focused on the material.,positive,14,2026-01-24
+REV_0097,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. The customer aspect could be improved.,negative,45,2026-05-11
+REV_0098,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard return experience overall.,positive,38,2026-02-18
+REV_0099,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Standard shipped experience overall.",neutral,18,2026-01-01
+REV_0100,Home & Kitchen,1,Horrible purchase. Avoid this seller and product. Save your money. Standard support experience overall.,negative,35,2026-03-27
+REV_0101,Clothing & Fashion,2,I would not recommend this. It stopped working after a week of light use. The seller aspect could be improved.,negative,24,2026-05-27
+REV_0102,Books & Media,5,Five stars! The customer service was also very helpful and responsive. Standard carrier experience overall.,positive,42,2026-04-09
+REV_0103,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. The service aspect could be improved.,negative,28,2026-01-26
+REV_0104,Clothing & Fashion,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard arrived experience overall.,positive,30,2026-01-20
+REV_0105,Books & Media,2,"Poor build quality. The plastic feels cheap and it makes a weird noise. Regarding the expensive, I must say it was notable.",negative,40,2026-03-23
+REV_0106,Home & Kitchen,1,Very overpriced for such poor quality. I am returning it immediately. The delivery aspect could be improved.,negative,47,2026-02-28
+REV_0107,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. The fast aspect could be improved.,positive,20,2026-01-12
+REV_0108,Books & Media,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Standard cheap experience overall.,negative,43,2026-05-25
+REV_0109,Clothing & Fashion,2,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the build.,negative,37,2026-05-08
+REV_0110,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the deal.,positive,43,2026-03-15
+REV_0111,Books & Media,3,"Average product. It works as described, but the build quality could be better. Especially satisfied with the seller.",neutral,29,2026-03-06
+REV_0112,Home & Kitchen,1,"Worst experience ever. The product didn't match the description at all. Regarding the helpful, I must say it was notable.",negative,18,2026-05-28
+REV_0113,Electronics,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the late.,negative,18,2026-05-08
+REV_0114,Clothing & Fashion,1,Worst experience ever. The product didn't match the description at all. The overpriced aspect could be improved.,negative,40,2026-01-25
+REV_0115,Clothing & Fashion,3,"The product works, but the customer service was not very helpful. Especially satisfied with the service.",neutral,18,2026-01-24
+REV_0116,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. The durable aspect could be improved.,positive,32,2026-05-16
+REV_0117,Home & Kitchen,2,Waste of money. Extremely slow shipping and the item is defective. I was particularly focused on the deal.,negative,29,2026-01-30
+REV_0118,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the plastic.,negative,16,2026-01-04
+REV_0119,Home & Kitchen,3,"It performs okay, but there are better alternatives on the market. Especially satisfied with the cost.",neutral,43,2026-01-28
+REV_0120,Books & Media,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the overpriced, I must say it was notable.",positive,41,2026-03-19
+REV_0121,Electronics,4,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the shipping.,positive,15,2026-01-25
+REV_0122,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. I was particularly focused on the helpful.,negative,47,2026-05-31
+REV_0123,Home & Kitchen,1,I would not recommend this. It stopped working after a week of light use. Especially satisfied with the fast.,negative,44,2026-01-09
+REV_0124,Home & Kitchen,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the return.,positive,41,2026-05-20
+REV_0125,Books & Media,4,"Five stars! The customer service was also very helpful and responsive. Regarding the overpriced, I must say it was notable.",positive,42,2026-01-24
+REV_0126,Clothing & Fashion,5,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the shipping.,positive,13,2026-05-25
+REV_0127,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The durable aspect could be improved.",positive,17,2026-01-01
+REV_0128,Electronics,2,Waste of money. Extremely slow shipping and the item is defective. I was particularly focused on the defective.,negative,8,2026-01-07
+REV_0129,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. The price aspect could be improved.,positive,33,2026-04-18
+REV_0130,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the helpful.,positive,32,2026-04-26
+REV_0131,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard shipped experience overall.,positive,30,2026-01-16
+REV_0132,Electronics,1,I would not recommend this. It stopped working after a week of light use. Standard fast experience overall.,negative,38,2026-03-24
+REV_0133,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the worth.,positive,32,2026-04-27
+REV_0134,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. Standard packaging experience overall.",neutral,21,2026-04-16
+REV_0135,Home & Kitchen,1,I would not recommend this. It stopped working after a week of light use. I was particularly focused on the customer.,negative,9,2026-04-06
+REV_0136,Electronics,3,"It performs okay, but there are better alternatives on the market. Regarding the delivery, I must say it was notable.",neutral,8,2026-04-06
+REV_0137,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Standard value experience overall.",neutral,18,2026-01-14
+REV_0138,Clothing & Fashion,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The packaging aspect could be improved.",neutral,22,2026-01-28
+REV_0139,Books & Media,1,"The customer service was awful, and the product arrived damaged. Especially satisfied with the shipped.",negative,49,2026-05-24
+REV_0140,Home & Kitchen,1,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the shipped, I must say it was notable.",negative,22,2026-03-28
+REV_0141,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. The customer aspect could be improved.,positive,47,2026-01-24
+REV_0142,Home & Kitchen,3,"Not bad, not great. Standard product that meets basic expectations. I was particularly focused on the helpful.",neutral,49,2026-03-25
+REV_0143,Electronics,1,Horrible purchase. Avoid this seller and product. Save your money. The shipping aspect could be improved.,negative,17,2026-01-21
+REV_0144,Electronics,5,Five stars! The customer service was also very helpful and responsive. Standard helpful experience overall.,positive,27,2026-03-30
+REV_0145,Electronics,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the refund, I must say it was notable.",positive,13,2026-01-02
+REV_0146,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the sturdy.,positive,47,2026-05-08
+REV_0147,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the return.,positive,25,2026-01-19
+REV_0148,Home & Kitchen,2,Terrible quality. It broke within the first day of use. Do not buy! Standard service experience overall.,negative,27,2026-05-28
+REV_0149,Home & Kitchen,3,"Not bad, not great. Standard product that meets basic expectations. Standard value experience overall.",neutral,39,2026-02-13
+REV_0150,Books & Media,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the late, I must say it was notable.",positive,5,2026-05-15
+REV_0151,Electronics,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the overpriced.,positive,40,2026-05-11
+REV_0152,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the cheap.",positive,6,2026-03-02
+REV_0153,Books & Media,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the material, I must say it was notable.",positive,48,2026-04-29
+REV_0154,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the seller.",neutral,28,2026-05-01
+REV_0155,Books & Media,3,"The product works, but the customer service was not very helpful. Especially satisfied with the carrier.",neutral,2,2026-04-26
+REV_0156,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the delivery.,positive,37,2026-04-29
+REV_0157,Clothing & Fashion,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the return.",neutral,28,2026-01-16
+REV_0158,Books & Media,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the arrived, I must say it was notable.",positive,33,2026-04-23
+REV_0159,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. I was particularly focused on the cheap.",neutral,50,2026-01-14
+REV_0160,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Regarding the carrier, I must say it was notable.",neutral,16,2026-03-14
+REV_0161,Clothing & Fashion,1,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the cheap, I must say it was notable.",negative,19,2026-03-31
+REV_0162,Home & Kitchen,1,I would not recommend this. It stopped working after a week of light use. I was particularly focused on the build.,negative,42,2026-02-02
+REV_0163,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the late.,negative,11,2026-03-21
+REV_0164,Clothing & Fashion,2,"The customer service was awful, and the product arrived damaged. The return aspect could be improved.",negative,18,2026-01-20
+REV_0165,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the carrier.,negative,10,2026-02-09
+REV_0166,Clothing & Fashion,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the broke, I must say it was notable.",positive,39,2026-04-24
+REV_0167,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. The defective aspect could be improved.,positive,23,2026-02-19
+REV_0168,Books & Media,4,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the helpful.",neutral,12,2026-02-11
+REV_0169,Electronics,2,Waste of money. Extremely slow shipping and the item is defective. Standard price experience overall.,negative,7,2026-05-13
+REV_0170,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the deal.,positive,14,2026-01-24
+REV_0171,Home & Kitchen,1,"The customer service was awful, and the product arrived damaged. Regarding the late, I must say it was notable.",negative,24,2026-03-02
+REV_0172,Home & Kitchen,2,"The customer service was awful, and the product arrived damaged. I was particularly focused on the quality.",negative,8,2026-02-07
+REV_0173,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard broke experience overall.,positive,16,2026-01-05
+REV_0174,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the customer.,positive,15,2026-01-13
+REV_0175,Books & Media,4,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the customer, I must say it was notable.",positive,1,2026-05-18
+REV_0176,Home & Kitchen,3,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the material.",neutral,36,2026-03-03
+REV_0177,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the value.,positive,30,2026-04-10
+REV_0178,Electronics,5,"Five stars! The customer service was also very helpful and responsive. Regarding the cost, I must say it was notable.",positive,15,2026-03-30
+REV_0179,Home & Kitchen,1,"Very disappointed. The product looks cheap and does not work properly. Regarding the money, I must say it was notable.",negative,49,2026-02-14
+REV_0180,Books & Media,4,"It performs okay, but there are better alternatives on the market. Regarding the material, I must say it was notable.",neutral,18,2026-01-10
+REV_0181,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the carrier.,positive,2,2026-03-06
+REV_0182,Home & Kitchen,2,"Worst experience ever. The product didn't match the description at all. Regarding the cheap, I must say it was notable.",negative,7,2026-03-11
+REV_0183,Clothing & Fashion,1,I would not recommend this. It stopped working after a week of light use. Standard helpful experience overall.,negative,44,2026-05-08
+REV_0184,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard value experience overall.",positive,18,2026-05-20
+REV_0185,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the cost.,positive,44,2026-02-12
+REV_0186,Home & Kitchen,4,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the carrier.,positive,4,2026-01-15
+REV_0187,Clothing & Fashion,2,"Not bad, not great. Standard product that meets basic expectations. The worth aspect could be improved.",neutral,2,2026-04-23
+REV_0188,Electronics,4,Very satisfied with this purchase. High quality material and works like a charm. Standard cheap experience overall.,positive,43,2026-02-09
+REV_0189,Home & Kitchen,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the deal, I must say it was notable.",positive,20,2026-04-12
+REV_0190,Books & Media,3,Neutral opinion. It has some good features but also a few design flaws. The shipping aspect could be improved.,neutral,7,2026-05-24
+REV_0191,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the return.,positive,7,2026-02-21
+REV_0192,Home & Kitchen,4,Best purchase I have made in a long time. Highly recommend to everyone. Standard support experience overall.,positive,45,2026-03-30
+REV_0193,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The cost aspect could be improved.",positive,32,2026-04-03
+REV_0194,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. Standard durable experience overall.,positive,35,2026-04-30
+REV_0195,Books & Media,4,Best purchase I have made in a long time. Highly recommend to everyone. Standard shipped experience overall.,positive,26,2026-05-15
+REV_0196,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. I was particularly focused on the arrived.,negative,43,2026-04-30
+REV_0197,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Standard material experience overall.",neutral,33,2026-02-01
+REV_0198,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. The cheap aspect could be improved.,positive,16,2026-01-21
+REV_0199,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the money.",positive,41,2026-05-09
+REV_0200,Home & Kitchen,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the material.,positive,2,2026-05-25
+REV_0201,Clothing & Fashion,1,Terrible quality. It broke within the first day of use. Do not buy! Especially satisfied with the shipping.,negative,26,2026-05-27
+REV_0202,Books & Media,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the refund.",neutral,29,2026-03-18
+REV_0203,Clothing & Fashion,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard broke experience overall.,positive,38,2026-03-29
+REV_0204,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. The expensive aspect could be improved.,positive,15,2026-03-23
+REV_0205,Home & Kitchen,5,Great value for money. It does exactly what it says and feels premium. The return aspect could be improved.,positive,39,2026-04-09
+REV_0206,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. The cheap aspect could be improved.,positive,29,2026-05-12
+REV_0207,Books & Media,4,"Great value for money. It does exactly what it says and feels premium. Regarding the service, I must say it was notable.",positive,13,2026-03-03
+REV_0208,Books & Media,3,"It is decent for the price. Not amazing, but does the job fine. Standard shipped experience overall.",neutral,34,2026-03-15
+REV_0209,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the support.,positive,2,2026-04-04
+REV_0210,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the cheap.,positive,28,2026-05-10
+REV_0211,Home & Kitchen,1,"Poor build quality. The plastic feels cheap and it makes a weird noise. Regarding the arrived, I must say it was notable.",negative,23,2026-05-23
+REV_0212,Home & Kitchen,1,"Worst experience ever. The product didn't match the description at all. Regarding the service, I must say it was notable.",negative,33,2026-05-02
+REV_0213,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the cheap.,positive,37,2026-03-18
+REV_0214,Home & Kitchen,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard refund experience overall.",positive,43,2026-03-26
+REV_0215,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the price.,positive,37,2026-01-14
+REV_0216,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The support aspect could be improved.",positive,1,2026-02-18
+REV_0217,Books & Media,5,Five stars! The customer service was also very helpful and responsive. The plastic aspect could be improved.,positive,45,2026-01-16
+REV_0218,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the deal.,positive,34,2026-04-28
+REV_0219,Home & Kitchen,4,Super fast shipping! The item arrived in perfect condition and is top notch. The deal aspect could be improved.,positive,19,2026-05-23
+REV_0220,Home & Kitchen,5,Great value for money. It does exactly what it says and feels premium. Standard overpriced experience overall.,positive,50,2026-05-24
+REV_0221,Clothing & Fashion,2,Poor build quality. The plastic feels cheap and it makes a weird noise. Standard late experience overall.,negative,2,2026-03-16
+REV_0222,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the deal.,positive,34,2026-02-21
+REV_0223,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the money, I must say it was notable.",positive,3,2026-03-04
+REV_0224,Home & Kitchen,3,"The size is smaller than expected, but the quality is fine otherwise. Regarding the durable, I must say it was notable.",neutral,6,2026-05-01
+REV_0225,Books & Media,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Standard arrived experience overall.",neutral,41,2026-05-03
+REV_0226,Electronics,4,"Great value for money. It does exactly what it says and feels premium. Regarding the cost, I must say it was notable.",positive,14,2026-05-27
+REV_0227,Electronics,2,"It is decent for the price. Not amazing, but does the job fine. The plastic aspect could be improved.",neutral,50,2026-04-12
+REV_0228,Electronics,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the shipping.,positive,18,2026-03-27
+REV_0229,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the support.",positive,21,2026-01-29
+REV_0230,Home & Kitchen,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the money, I must say it was notable.",positive,43,2026-05-26
+REV_0231,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the contact.,negative,11,2026-01-25
+REV_0232,Clothing & Fashion,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the overpriced, I must say it was notable.",negative,48,2026-04-25
+REV_0233,Clothing & Fashion,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the price.,positive,42,2026-01-16
+REV_0234,Home & Kitchen,4,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the plastic.,positive,40,2026-01-31
+REV_0235,Books & Media,2,Poor build quality. The plastic feels cheap and it makes a weird noise. The overpriced aspect could be improved.,negative,29,2026-02-09
+REV_0236,Clothing & Fashion,2,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the expensive.,negative,43,2026-03-05
+REV_0237,Electronics,2,"Very disappointed. The product looks cheap and does not work properly. Regarding the seller, I must say it was notable.",negative,35,2026-01-16
+REV_0238,Books & Media,2,Worst experience ever. The product didn't match the description at all. I was particularly focused on the material.,negative,43,2026-01-30
+REV_0239,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the customer.,positive,8,2026-04-27
+REV_0240,Books & Media,4,"It performs okay, but there are better alternatives on the market. I was particularly focused on the fast.",neutral,0,2026-03-07
+REV_0241,Electronics,1,Horrible purchase. Avoid this seller and product. Save your money. Standard shipping experience overall.,negative,3,2026-05-19
+REV_0242,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the service.,negative,23,2026-04-18
+REV_0243,Clothing & Fashion,1,I would not recommend this. It stopped working after a week of light use. Standard contact experience overall.,negative,7,2026-03-31
+REV_0244,Electronics,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. The support aspect could be improved.",positive,29,2026-03-18
+REV_0245,Home & Kitchen,3,"The size is smaller than expected, but the quality is fine otherwise. The contact aspect could be improved.",neutral,17,2026-02-09
+REV_0246,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the late.,positive,13,2026-03-03
+REV_0247,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the fast.,positive,47,2026-03-04
+REV_0248,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. The defective aspect could be improved.,positive,32,2026-02-05
+REV_0249,Clothing & Fashion,1,Worst experience ever. The product didn't match the description at all. The cheap aspect could be improved.,negative,14,2026-05-14
+REV_0250,Electronics,5,Great value for money. It does exactly what it says and feels premium. Standard arrived experience overall.,positive,41,2026-03-30
+REV_0251,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. Standard expensive experience overall.",neutral,48,2026-02-17
+REV_0252,Electronics,4,Neutral opinion. It has some good features but also a few design flaws. The sturdy aspect could be improved.,neutral,26,2026-05-24
+REV_0253,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. The plastic aspect could be improved.,negative,28,2026-01-21
+REV_0254,Electronics,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the quality.,negative,12,2026-01-19
+REV_0255,Home & Kitchen,2,Horrible purchase. Avoid this seller and product. Save your money. The broke aspect could be improved.,negative,0,2026-03-19
+REV_0256,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. The fast aspect could be improved.,positive,15,2026-04-12
+REV_0257,Home & Kitchen,3,"The product works, but the customer service was not very helpful. Especially satisfied with the helpful.",neutral,23,2026-03-08
+REV_0258,Home & Kitchen,4,"It performs okay, but there are better alternatives on the market. Standard customer experience overall.",neutral,23,2026-02-22
+REV_0259,Books & Media,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the material, I must say it was notable.",positive,9,2026-03-17
+REV_0260,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. Standard return experience overall.,positive,48,2026-03-07
+REV_0261,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. I was particularly focused on the support.,negative,34,2026-02-17
+REV_0262,Books & Media,2,"Terrible quality. It broke within the first day of use. Do not buy! Regarding the delivery, I must say it was notable.",negative,40,2026-02-05
+REV_0263,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the packaging.,positive,42,2026-05-04
+REV_0264,Home & Kitchen,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the service, I must say it was notable.",positive,18,2026-05-18
+REV_0265,Clothing & Fashion,5,"Five stars! The customer service was also very helpful and responsive. Regarding the build, I must say it was notable.",positive,39,2026-02-19
+REV_0266,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Regarding the expensive, I must say it was notable.",neutral,36,2026-04-28
+REV_0267,Books & Media,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the value, I must say it was notable.",positive,35,2026-04-07
+REV_0268,Home & Kitchen,4,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard build experience overall.,positive,6,2026-05-25
+REV_0269,Electronics,1,Terrible quality. It broke within the first day of use. Do not buy! Especially satisfied with the durable.,negative,43,2026-01-20
+REV_0270,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. I was particularly focused on the arrived.,negative,9,2026-05-31
+REV_0271,Books & Media,1,I would not recommend this. It stopped working after a week of light use. The shipped aspect could be improved.,negative,21,2026-05-19
+REV_0272,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the carrier, I must say it was notable.",positive,21,2026-01-20
+REV_0273,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Regarding the seller, I must say it was notable.",neutral,14,2026-05-06
+REV_0274,Electronics,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the support.,positive,15,2026-03-17
+REV_0275,Clothing & Fashion,2,Very disappointed. The product looks cheap and does not work properly. Standard money experience overall.,negative,20,2026-04-10
+REV_0276,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard shipped experience overall.,positive,8,2026-01-27
+REV_0277,Home & Kitchen,5,"Five stars! The customer service was also very helpful and responsive. Regarding the contact, I must say it was notable.",positive,5,2026-05-22
+REV_0278,Electronics,3,"Okay product, but I feel like it is slightly overpriced for what it offers. I was particularly focused on the service.",neutral,15,2026-05-24
+REV_0279,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. The support aspect could be improved.",neutral,9,2026-05-07
+REV_0280,Electronics,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the expensive.,positive,16,2026-04-03
+REV_0281,Electronics,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the broke, I must say it was notable.",negative,21,2026-04-12
+REV_0282,Clothing & Fashion,1,I would not recommend this. It stopped working after a week of light use. I was particularly focused on the deal.,negative,20,2026-03-18
+REV_0283,Home & Kitchen,2,Neutral opinion. It has some good features but also a few design flaws. The seller aspect could be improved.,neutral,47,2026-03-16
+REV_0284,Books & Media,3,"It performs okay, but there are better alternatives on the market. Standard cheap experience overall.",neutral,7,2026-04-04
+REV_0285,Books & Media,2,"Worst experience ever. The product didn't match the description at all. Regarding the defective, I must say it was notable.",negative,28,2026-02-23
+REV_0286,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. The helpful aspect could be improved.,negative,42,2026-03-06
+REV_0287,Books & Media,4,Five stars! The customer service was also very helpful and responsive. Standard customer experience overall.,positive,25,2026-05-30
+REV_0288,Electronics,3,"Not bad, not great. Standard product that meets basic expectations. Especially satisfied with the carrier.",neutral,49,2026-01-28
+REV_0289,Books & Media,4,Super fast shipping! The item arrived in perfect condition and is top notch. Especially satisfied with the quality.,positive,50,2026-03-26
+REV_0290,Clothing & Fashion,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The shipped aspect could be improved.,positive,23,2026-04-25
+REV_0291,Home & Kitchen,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the cheap, I must say it was notable.",positive,5,2026-04-17
+REV_0292,Clothing & Fashion,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the cost.,positive,30,2026-05-14
+REV_0293,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the helpful.,positive,1,2026-01-30
+REV_0294,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the durable.,negative,35,2026-03-26
+REV_0295,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. The plastic aspect could be improved.,positive,1,2026-04-12
+REV_0296,Clothing & Fashion,1,Worst experience ever. The product didn't match the description at all. Standard contact experience overall.,negative,17,2026-02-22
+REV_0297,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the arrived.,negative,16,2026-01-30
+REV_0298,Electronics,3,"It performs okay, but there are better alternatives on the market. Especially satisfied with the expensive.",neutral,22,2026-03-31
+REV_0299,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the sturdy.,negative,7,2026-03-22
+REV_0300,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. The cheap aspect could be improved.,positive,36,2026-02-05
+REV_0301,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the support.,positive,11,2026-02-05
+REV_0302,Clothing & Fashion,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the carrier, I must say it was notable.",positive,35,2026-04-09
+REV_0303,Books & Media,4,"It performs okay, but there are better alternatives on the market. Standard helpful experience overall.",neutral,10,2026-05-06
+REV_0304,Home & Kitchen,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the sturdy, I must say it was notable.",positive,49,2026-02-13
+REV_0305,Home & Kitchen,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the delivery.,positive,48,2026-05-19
+REV_0306,Clothing & Fashion,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the plastic, I must say it was notable.",positive,2,2026-03-18
+REV_0307,Clothing & Fashion,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the fast, I must say it was notable.",positive,47,2026-02-23
+REV_0308,Clothing & Fashion,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Especially satisfied with the support.",neutral,3,2026-02-22
+REV_0309,Home & Kitchen,3,"The size is smaller than expected, but the quality is fine otherwise. The worth aspect could be improved.",neutral,36,2026-03-16
+REV_0310,Home & Kitchen,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard arrived experience overall.",positive,44,2026-02-02
+REV_0311,Books & Media,2,Worst experience ever. The product didn't match the description at all. The cheap aspect could be improved.,negative,9,2026-05-06
+REV_0312,Electronics,3,"The product works, but the customer service was not very helpful. Standard contact experience overall.",neutral,32,2026-04-14
+REV_0313,Electronics,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the helpful.",negative,40,2026-04-28
+REV_0314,Clothing & Fashion,2,"Okay product, but I feel like it is slightly overpriced for what it offers. The late aspect could be improved.",neutral,17,2026-05-07
+REV_0315,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the worth.,positive,43,2026-03-29
+REV_0316,Clothing & Fashion,1,"Terrible quality. It broke within the first day of use. Do not buy! Regarding the fast, I must say it was notable.",negative,29,2026-04-23
+REV_0317,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the material.,positive,41,2026-01-24
+REV_0318,Home & Kitchen,5,"Best purchase I have made in a long time. Highly recommend to everyone. Regarding the money, I must say it was notable.",positive,27,2026-03-01
+REV_0319,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. Standard packaging experience overall.",neutral,43,2026-05-13
+REV_0320,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard value experience overall.,positive,14,2026-01-19
+REV_0321,Clothing & Fashion,4,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the carrier.,positive,49,2026-04-08
+REV_0322,Clothing & Fashion,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the build.,negative,22,2026-04-23
+REV_0323,Electronics,1,Waste of money. Extremely slow shipping and the item is defective. The helpful aspect could be improved.,negative,48,2026-02-05
+REV_0324,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the expensive.,positive,41,2026-03-12
+REV_0325,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the price.",positive,18,2026-04-11
+REV_0326,Electronics,3,"Neutral opinion. It has some good features but also a few design flaws. Regarding the contact, I must say it was notable.",neutral,0,2026-05-16
+REV_0327,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. Especially satisfied with the plastic.",negative,49,2026-05-01
+REV_0328,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the shipping.,positive,32,2026-04-12
+REV_0329,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard contact experience overall.",positive,5,2026-03-13
+REV_0330,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the material.",positive,44,2026-03-21
+REV_0331,Electronics,4,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the packaging, I must say it was notable.",positive,39,2026-04-27
+REV_0332,Electronics,4,"The product works, but the customer service was not very helpful. Regarding the build, I must say it was notable.",neutral,31,2026-02-11
+REV_0333,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. I was particularly focused on the money.,negative,49,2026-01-31
+REV_0334,Electronics,1,"The customer service was awful, and the product arrived damaged. Especially satisfied with the refund.",negative,29,2026-05-08
+REV_0335,Electronics,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the support.",neutral,43,2026-05-27
+REV_0336,Books & Media,1,"Worst experience ever. The product didn't match the description at all. Regarding the shipping, I must say it was notable.",negative,24,2026-04-04
+REV_0337,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. The late aspect could be improved.,negative,17,2026-03-23
+REV_0338,Electronics,1,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the value.,negative,14,2026-02-15
+REV_0339,Home & Kitchen,2,Terrible quality. It broke within the first day of use. Do not buy! Standard customer experience overall.,negative,5,2026-03-25
+REV_0340,Home & Kitchen,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the overpriced.",neutral,29,2026-03-04
+REV_0341,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. The defective aspect could be improved.,positive,14,2026-01-07
+REV_0342,Home & Kitchen,4,"It is decent for the price. Not amazing, but does the job fine. Standard price experience overall.",neutral,13,2026-01-27
+REV_0343,Clothing & Fashion,2,"Neutral opinion. It has some good features but also a few design flaws. Regarding the helpful, I must say it was notable.",neutral,5,2026-03-13
+REV_0344,Electronics,4,Very satisfied with this purchase. High quality material and works like a charm. Standard seller experience overall.,positive,6,2026-05-29
+REV_0345,Clothing & Fashion,3,"Not bad, not great. Standard product that meets basic expectations. Standard shipping experience overall.",neutral,18,2026-03-02
+REV_0346,Clothing & Fashion,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the seller.,positive,12,2026-01-20
+REV_0347,Books & Media,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the arrived, I must say it was notable.",positive,26,2026-03-22
+REV_0348,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the broke.,positive,10,2026-01-24
+REV_0349,Clothing & Fashion,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the packaging.,negative,25,2026-04-02
+REV_0350,Books & Media,2,"The product works, but the customer service was not very helpful. Regarding the money, I must say it was notable.",neutral,47,2026-05-23
+REV_0351,Electronics,3,"Average product. It works as described, but the build quality could be better. The customer aspect could be improved.",neutral,8,2026-02-26
+REV_0352,Electronics,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the value.,positive,4,2026-01-06
+REV_0353,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the build.,positive,10,2026-01-13
+REV_0354,Books & Media,1,"I would not recommend this. It stopped working after a week of light use. Regarding the helpful, I must say it was notable.",negative,22,2026-02-14
+REV_0355,Electronics,4,Excellent product. It works perfectly and the design is very sleek and modern. Standard cost experience overall.,positive,41,2026-03-04
+REV_0356,Clothing & Fashion,5,"Five stars! The customer service was also very helpful and responsive. Regarding the service, I must say it was notable.",positive,12,2026-04-18
+REV_0357,Home & Kitchen,2,"The size is smaller than expected, but the quality is fine otherwise. Regarding the defective, I must say it was notable.",neutral,34,2026-05-03
+REV_0358,Home & Kitchen,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the expensive.",negative,1,2026-02-26
+REV_0359,Clothing & Fashion,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the fast.,negative,6,2026-02-10
+REV_0360,Clothing & Fashion,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the worth, I must say it was notable.",positive,24,2026-05-28
+REV_0361,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the durable.,positive,45,2026-01-08
+REV_0362,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Standard durable experience overall.,negative,2,2026-05-06
+REV_0363,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the quality.,positive,8,2026-02-21
+REV_0364,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the price, I must say it was notable.",positive,33,2026-01-29
+REV_0365,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the expensive.,negative,8,2026-03-24
+REV_0366,Home & Kitchen,2,I would not recommend this. It stopped working after a week of light use. The seller aspect could be improved.,negative,42,2026-02-27
+REV_0367,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. I was particularly focused on the refund.",neutral,25,2026-05-27
+REV_0368,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the arrived.,negative,6,2026-05-25
+REV_0369,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. The value aspect could be improved.,negative,40,2026-02-12
+REV_0370,Clothing & Fashion,1,"Very disappointed. The product looks cheap and does not work properly. Regarding the deal, I must say it was notable.",negative,22,2026-01-18
+REV_0371,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard shipping experience overall.,positive,26,2026-02-12
+REV_0372,Books & Media,5,Five stars! The customer service was also very helpful and responsive. Standard worth experience overall.,positive,41,2026-05-28
+REV_0373,Electronics,2,"Worst experience ever. The product didn't match the description at all. Regarding the broke, I must say it was notable.",negative,1,2026-03-17
+REV_0374,Clothing & Fashion,4,Best purchase I have made in a long time. Highly recommend to everyone. The carrier aspect could be improved.,positive,35,2026-01-20
+REV_0375,Clothing & Fashion,1,"Very disappointed. The product looks cheap and does not work properly. Regarding the deal, I must say it was notable.",negative,10,2026-04-22
+REV_0376,Home & Kitchen,5,Super fast shipping! The item arrived in perfect condition and is top notch. Standard durable experience overall.,positive,19,2026-03-14
+REV_0377,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The helpful aspect could be improved.,positive,5,2026-04-20
+REV_0378,Clothing & Fashion,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the return, I must say it was notable.",positive,5,2026-03-16
+REV_0379,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard expensive experience overall.,positive,41,2026-01-24
+REV_0380,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. I was particularly focused on the expensive.",neutral,28,2026-03-09
+REV_0381,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. The price aspect could be improved.,positive,42,2026-01-22
+REV_0382,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the return.",positive,26,2026-05-14
+REV_0383,Electronics,1,Very overpriced for such poor quality. I am returning it immediately. I was particularly focused on the broke.,negative,36,2026-05-09
+REV_0384,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Standard build experience overall.,negative,12,2026-02-24
+REV_0385,Clothing & Fashion,4,Five stars! The customer service was also very helpful and responsive. The late aspect could be improved.,positive,20,2026-03-08
+REV_0386,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the late.,negative,33,2026-03-12
+REV_0387,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard customer experience overall.,positive,36,2026-01-28
+REV_0388,Books & Media,1,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the expensive.,negative,38,2026-05-27
+REV_0389,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. The expensive aspect could be improved.,positive,25,2026-01-10
+REV_0390,Home & Kitchen,2,"The customer service was awful, and the product arrived damaged. Standard quality experience overall.",negative,21,2026-01-06
+REV_0391,Electronics,2,Poor build quality. The plastic feels cheap and it makes a weird noise. Standard cost experience overall.,negative,8,2026-02-28
+REV_0392,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard cost experience overall.,positive,28,2026-02-18
+REV_0393,Clothing & Fashion,5,"Five stars! The customer service was also very helpful and responsive. Regarding the seller, I must say it was notable.",positive,19,2026-01-17
+REV_0394,Clothing & Fashion,1,I would not recommend this. It stopped working after a week of light use. Especially satisfied with the defective.,negative,3,2026-02-21
+REV_0395,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. The carrier aspect could be improved.,positive,25,2026-05-10
+REV_0396,Books & Media,3,"Average product. It works as described, but the build quality could be better. I was particularly focused on the packaging.",neutral,30,2026-02-15
+REV_0397,Electronics,4,"Okay product, but I feel like it is slightly overpriced for what it offers. I was particularly focused on the money.",neutral,1,2026-03-14
+REV_0398,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. The durable aspect could be improved.,positive,32,2026-04-15
+REV_0399,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The support aspect could be improved.,positive,16,2026-02-27
+REV_0400,Books & Media,2,"The product works, but the customer service was not very helpful. Standard expensive experience overall.",neutral,13,2026-03-06
+REV_0401,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the customer, I must say it was notable.",positive,41,2026-05-24
+REV_0402,Home & Kitchen,3,"The product works, but the customer service was not very helpful. Standard value experience overall.",neutral,17,2026-03-25
+REV_0403,Electronics,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the material.,positive,42,2026-04-14
+REV_0404,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the fast.,positive,24,2026-04-14
+REV_0405,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. The cheap aspect could be improved.,negative,32,2026-04-02
+REV_0406,Home & Kitchen,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the sturdy, I must say it was notable.",positive,48,2026-05-24
+REV_0407,Home & Kitchen,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the packaging.",negative,50,2026-04-18
+REV_0408,Books & Media,2,"The customer service was awful, and the product arrived damaged. Standard cost experience overall.",negative,40,2026-01-14
+REV_0409,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. The fast aspect could be improved.",neutral,19,2026-05-16
+REV_0410,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the durable.,positive,20,2026-02-06
+REV_0411,Clothing & Fashion,1,Waste of money. Extremely slow shipping and the item is defective. I was particularly focused on the fast.,negative,40,2026-03-22
+REV_0412,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. The overpriced aspect could be improved.,positive,50,2026-05-06
+REV_0413,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. Standard plastic experience overall.,negative,0,2026-04-09
+REV_0414,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the price.,positive,43,2026-01-05
+REV_0415,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the cheap.,positive,37,2026-05-09
+REV_0416,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the shipped.,positive,43,2026-04-22
+REV_0417,Books & Media,1,"The customer service was awful, and the product arrived damaged. The seller aspect could be improved.",negative,14,2026-01-05
+REV_0418,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the quality.,positive,45,2026-04-04
+REV_0419,Electronics,3,"It is decent for the price. Not amazing, but does the job fine. Especially satisfied with the refund.",neutral,41,2026-01-28
+REV_0420,Home & Kitchen,1,Terrible quality. It broke within the first day of use. Do not buy! Standard late experience overall.,negative,44,2026-05-02
+REV_0421,Home & Kitchen,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the expensive, I must say it was notable.",positive,26,2026-02-05
+REV_0422,Books & Media,2,"Very disappointed. The product looks cheap and does not work properly. Regarding the shipped, I must say it was notable.",negative,38,2026-02-20
+REV_0423,Electronics,5,Great value for money. It does exactly what it says and feels premium. Standard cheap experience overall.,positive,31,2026-05-21
+REV_0424,Electronics,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the overpriced, I must say it was notable.",negative,36,2026-01-29
+REV_0425,Clothing & Fashion,2,"It is okay. Shipping was a bit slow, but the product is acceptable. Regarding the delivery, I must say it was notable.",neutral,18,2026-04-27
+REV_0426,Home & Kitchen,4,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the arrived, I must say it was notable.",positive,27,2026-03-22
+REV_0427,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. The shipping aspect could be improved.,negative,22,2026-03-26
+REV_0428,Clothing & Fashion,2,Horrible purchase. Avoid this seller and product. Save your money. I was particularly focused on the value.,negative,25,2026-01-30
+REV_0429,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard expensive experience overall.,positive,8,2026-01-29
+REV_0430,Books & Media,2,"It is decent for the price. Not amazing, but does the job fine. Standard build experience overall.",neutral,43,2026-05-26
+REV_0431,Clothing & Fashion,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the seller.,positive,31,2026-05-04
+REV_0432,Home & Kitchen,5,"Five stars! The customer service was also very helpful and responsive. Regarding the service, I must say it was notable.",positive,45,2026-01-04
+REV_0433,Electronics,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the cheap.,negative,42,2026-04-21
+REV_0434,Electronics,2,Very overpriced for such poor quality. I am returning it immediately. The expensive aspect could be improved.,negative,41,2026-01-03
+REV_0435,Books & Media,1,Frustrating to use. The instructions are unclear and it is very fragile. The helpful aspect could be improved.,negative,15,2026-03-24
+REV_0436,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the packaging.,positive,5,2026-03-02
+REV_0437,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard customer experience overall.,positive,47,2026-05-08
+REV_0438,Electronics,3,"Average product. It works as described, but the build quality could be better. Regarding the contact, I must say it was notable.",neutral,50,2026-01-24
+REV_0439,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Especially satisfied with the worth.",neutral,23,2026-03-29
+REV_0440,Books & Media,2,Worst experience ever. The product didn't match the description at all. Especially satisfied with the seller.,negative,45,2026-04-04
+REV_0441,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the quality.,positive,33,2026-05-21
+REV_0442,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard arrived experience overall.,positive,16,2026-01-28
+REV_0443,Clothing & Fashion,3,Neutral opinion. It has some good features but also a few design flaws. The late aspect could be improved.,neutral,6,2026-03-28
+REV_0444,Clothing & Fashion,1,Terrible quality. It broke within the first day of use. Do not buy! Standard fast experience overall.,negative,0,2026-05-08
+REV_0445,Clothing & Fashion,4,"It is decent for the price. Not amazing, but does the job fine. Especially satisfied with the helpful.",neutral,11,2026-05-29
+REV_0446,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the late.,negative,24,2026-05-10
+REV_0447,Home & Kitchen,4,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard sturdy experience overall.,positive,8,2026-04-26
+REV_0448,Clothing & Fashion,5,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the worth.,positive,13,2026-02-21
+REV_0449,Home & Kitchen,3,"The product works, but the customer service was not very helpful. The money aspect could be improved.",neutral,48,2026-01-30
+REV_0450,Electronics,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard refund experience overall.,positive,24,2026-01-07
+REV_0451,Home & Kitchen,4,Absolutely love this product! The quality is outstanding and exceeded my expectations. The sturdy aspect could be improved.,positive,3,2026-02-07
+REV_0452,Books & Media,3,"The product works, but the customer service was not very helpful. Regarding the defective, I must say it was notable.",neutral,39,2026-01-27
+REV_0453,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard defective experience overall.,negative,24,2026-01-13
+REV_0454,Books & Media,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the shipping.,positive,40,2026-02-27
+REV_0455,Electronics,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the durable.",negative,11,2026-02-17
+REV_0456,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. Standard service experience overall.,negative,10,2026-02-03
+REV_0457,Clothing & Fashion,4,"The product works, but the customer service was not very helpful. Standard carrier experience overall.",neutral,9,2026-01-11
+REV_0458,Home & Kitchen,2,Horrible purchase. Avoid this seller and product. Save your money. Standard shipped experience overall.,negative,50,2026-01-19
+REV_0459,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the material.,negative,34,2026-04-17
+REV_0460,Home & Kitchen,3,"Average product. It works as described, but the build quality could be better. The overpriced aspect could be improved.",neutral,18,2026-04-03
+REV_0461,Books & Media,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the service, I must say it was notable.",positive,41,2026-03-03
+REV_0462,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the quality.",neutral,16,2026-04-09
+REV_0463,Books & Media,4,"The product works, but the customer service was not very helpful. Especially satisfied with the carrier.",neutral,2,2026-05-05
+REV_0464,Clothing & Fashion,4,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the worth, I must say it was notable.",positive,34,2026-05-18
+REV_0465,Clothing & Fashion,4,Best purchase I have made in a long time. Highly recommend to everyone. Standard durable experience overall.,positive,44,2026-05-18
+REV_0466,Home & Kitchen,1,"I would not recommend this. It stopped working after a week of light use. Regarding the arrived, I must say it was notable.",negative,5,2026-01-10
+REV_0467,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the worth, I must say it was notable.",positive,26,2026-03-08
+REV_0468,Electronics,5,"Five stars! The customer service was also very helpful and responsive. Regarding the seller, I must say it was notable.",positive,0,2026-05-17
+REV_0469,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. Regarding the shipping, I must say it was notable.",neutral,50,2026-03-16
+REV_0470,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. Standard shipped experience overall.",neutral,10,2026-05-02
+REV_0471,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. The refund aspect could be improved.",neutral,35,2026-01-03
+REV_0472,Books & Media,1,"Waste of money. Extremely slow shipping and the item is defective. Regarding the shipping, I must say it was notable.",negative,35,2026-05-18
+REV_0473,Clothing & Fashion,1,Poor build quality. The plastic feels cheap and it makes a weird noise. The cheap aspect could be improved.,negative,11,2026-02-11
+REV_0474,Electronics,5,Great value for money. It does exactly what it says and feels premium. The build aspect could be improved.,positive,29,2026-05-21
+REV_0475,Books & Media,3,"Average product. It works as described, but the build quality could be better. I was particularly focused on the value.",neutral,22,2026-03-26
+REV_0476,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the shipped.,positive,31,2026-03-23
+REV_0477,Home & Kitchen,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the money.,positive,10,2026-04-20
+REV_0478,Clothing & Fashion,4,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the plastic.,positive,30,2026-03-26
+REV_0479,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Especially satisfied with the deal.,positive,8,2026-03-13
+REV_0480,Electronics,2,"Worst experience ever. The product didn't match the description at all. Regarding the value, I must say it was notable.",negative,37,2026-05-29
+REV_0481,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the quality.,positive,23,2026-02-08
+REV_0482,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard money experience overall.,positive,23,2026-04-12
+REV_0483,Clothing & Fashion,3,Neutral opinion. It has some good features but also a few design flaws. The defective aspect could be improved.,neutral,36,2026-05-25
+REV_0484,Books & Media,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Regarding the seller, I must say it was notable.",neutral,4,2026-03-01
+REV_0485,Home & Kitchen,4,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the packaging.,positive,30,2026-04-10
+REV_0486,Home & Kitchen,2,"Terrible quality. It broke within the first day of use. Do not buy! Regarding the carrier, I must say it was notable.",negative,37,2026-03-09
+REV_0487,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. I was particularly focused on the contact.",neutral,16,2026-05-13
+REV_0488,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the seller.,positive,32,2026-01-02
+REV_0489,Home & Kitchen,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the durable, I must say it was notable.",negative,9,2026-02-24
+REV_0490,Electronics,4,Super fast shipping! The item arrived in perfect condition and is top notch. Standard packaging experience overall.,positive,43,2026-05-04
+REV_0491,Clothing & Fashion,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the plastic, I must say it was notable.",positive,37,2026-05-27
+REV_0492,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the arrived, I must say it was notable.",positive,25,2026-05-13
+REV_0493,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Regarding the shipped, I must say it was notable.",neutral,10,2026-05-04
+REV_0494,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the material.,positive,46,2026-02-12
+REV_0495,Electronics,3,"It performs okay, but there are better alternatives on the market. Standard packaging experience overall.",neutral,12,2026-01-05
+REV_0496,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. Especially satisfied with the support.",neutral,50,2026-01-10
+REV_0497,Electronics,2,"Average product. It works as described, but the build quality could be better. The fast aspect could be improved.",neutral,33,2026-04-21
+REV_0498,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard return experience overall.,positive,37,2026-03-31
+REV_0499,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. The late aspect could be improved.,negative,18,2026-01-22
+REV_0500,Electronics,3,"The size is smaller than expected, but the quality is fine otherwise. The refund aspect could be improved.",neutral,33,2026-05-28
+REV_0501,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. I was particularly focused on the return.,positive,27,2026-02-09
+REV_0502,Home & Kitchen,3,"The product works, but the customer service was not very helpful. Standard worth experience overall.",neutral,48,2026-04-12
+REV_0503,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the support.",positive,19,2026-03-06
+REV_0504,Clothing & Fashion,3,"Not bad, not great. Standard product that meets basic expectations. The build aspect could be improved.",neutral,13,2026-01-26
+REV_0505,Electronics,2,"Okay product, but I feel like it is slightly overpriced for what it offers. Standard arrived experience overall.",neutral,9,2026-01-24
+REV_0506,Home & Kitchen,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the customer, I must say it was notable.",positive,38,2026-01-21
+REV_0507,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the refund.,positive,28,2026-05-07
+REV_0508,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the overpriced, I must say it was notable.",positive,43,2026-02-13
+REV_0509,Books & Media,4,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the arrived, I must say it was notable.",positive,42,2026-04-01
+REV_0510,Electronics,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the defective, I must say it was notable.",positive,35,2026-01-24
+REV_0511,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the cheap.",positive,25,2026-04-27
+REV_0512,Electronics,3,"The product works, but the customer service was not very helpful. Especially satisfied with the plastic.",neutral,18,2026-05-09
+REV_0513,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the worth.,positive,36,2026-04-07
+REV_0514,Electronics,4,Very satisfied with this purchase. High quality material and works like a charm. Standard deal experience overall.,positive,7,2026-05-04
+REV_0515,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the durable.,positive,34,2026-05-13
+REV_0516,Home & Kitchen,5,"Great value for money. It does exactly what it says and feels premium. Regarding the sturdy, I must say it was notable.",positive,35,2026-01-20
+REV_0517,Home & Kitchen,2,Very overpriced for such poor quality. I am returning it immediately. The cheap aspect could be improved.,negative,47,2026-02-16
+REV_0518,Home & Kitchen,4,Neutral opinion. It has some good features but also a few design flaws. The return aspect could be improved.,neutral,14,2026-02-22
+REV_0519,Electronics,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the money, I must say it was notable.",positive,39,2026-05-07
+REV_0520,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the fast.",positive,17,2026-05-28
+REV_0521,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The expensive aspect could be improved.",positive,33,2026-01-14
+REV_0522,Clothing & Fashion,2,Very overpriced for such poor quality. I am returning it immediately. Standard carrier experience overall.,negative,7,2026-04-28
+REV_0523,Books & Media,3,"It performs okay, but there are better alternatives on the market. Regarding the price, I must say it was notable.",neutral,6,2026-05-29
+REV_0524,Home & Kitchen,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the money.,positive,39,2026-05-01
+REV_0525,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. The contact aspect could be improved.,positive,25,2026-04-04
+REV_0526,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the durable, I must say it was notable.",positive,27,2026-05-23
+REV_0527,Clothing & Fashion,2,Worst experience ever. The product didn't match the description at all. Standard material experience overall.,negative,31,2026-04-18
+REV_0528,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the deal.",positive,6,2026-04-12
+REV_0529,Electronics,4,"It is decent for the price. Not amazing, but does the job fine. Standard sturdy experience overall.",neutral,47,2026-04-26
+REV_0530,Home & Kitchen,4,Super fast shipping! The item arrived in perfect condition and is top notch. Especially satisfied with the worth.,positive,1,2026-03-30
+REV_0531,Home & Kitchen,4,Super fast shipping! The item arrived in perfect condition and is top notch. The defective aspect could be improved.,positive,20,2026-04-01
+REV_0532,Books & Media,3,"It performs okay, but there are better alternatives on the market. Standard customer experience overall.",neutral,10,2026-02-07
+REV_0533,Home & Kitchen,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Regarding the contact, I must say it was notable.",neutral,20,2026-02-28
+REV_0534,Home & Kitchen,4,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the expensive.,positive,33,2026-05-31
+REV_0535,Clothing & Fashion,1,"I would not recommend this. It stopped working after a week of light use. Regarding the material, I must say it was notable.",negative,47,2026-03-06
+REV_0536,Electronics,1,Very disappointed. The product looks cheap and does not work properly. Standard material experience overall.,negative,35,2026-05-02
+REV_0537,Electronics,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the delivery.,positive,19,2026-04-10
+REV_0538,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. The support aspect could be improved.,positive,2,2026-01-08
+REV_0539,Books & Media,2,"Okay product, but I feel like it is slightly overpriced for what it offers. Especially satisfied with the helpful.",neutral,44,2026-02-04
+REV_0540,Home & Kitchen,3,"Delivery was quick, but the product packaging was a bit damaged. Especially satisfied with the contact.",neutral,30,2026-03-30
+REV_0541,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. I was particularly focused on the refund.",neutral,0,2026-03-19
+REV_0542,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard cost experience overall.,positive,19,2026-05-03
+REV_0543,Clothing & Fashion,5,"Five stars! The customer service was also very helpful and responsive. Regarding the overpriced, I must say it was notable.",positive,35,2026-04-16
+REV_0544,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. Standard plastic experience overall.,positive,40,2026-04-19
+REV_0545,Books & Media,4,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the cost.,positive,4,2026-02-18
+REV_0546,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the fast.,positive,20,2026-02-18
+REV_0547,Clothing & Fashion,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the arrived, I must say it was notable.",positive,46,2026-04-23
+REV_0548,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard quality experience overall.,positive,50,2026-03-21
+REV_0549,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the service.",negative,17,2026-01-15
+REV_0550,Home & Kitchen,2,Very disappointed. The product looks cheap and does not work properly. The support aspect could be improved.,negative,0,2026-04-08
+REV_0551,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. The helpful aspect could be improved.,positive,29,2026-02-20
+REV_0552,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. Standard broke experience overall.,negative,10,2026-03-24
+REV_0553,Clothing & Fashion,3,"It is decent for the price. Not amazing, but does the job fine. Standard shipped experience overall.",neutral,3,2026-04-03
+REV_0554,Clothing & Fashion,1,Worst experience ever. The product didn't match the description at all. Standard packaging experience overall.,negative,37,2026-03-12
+REV_0555,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the shipping.,positive,23,2026-02-09
+REV_0556,Home & Kitchen,1,"Worst experience ever. The product didn't match the description at all. Regarding the broke, I must say it was notable.",negative,3,2026-01-16
+REV_0557,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard arrived experience overall.,positive,46,2026-04-23
+REV_0558,Books & Media,4,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the money.,positive,35,2026-04-23
+REV_0559,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the material.,positive,38,2026-03-12
+REV_0560,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the build.,negative,34,2026-03-09
+REV_0561,Home & Kitchen,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the support, I must say it was notable.",positive,20,2026-03-03
+REV_0562,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the return.,negative,20,2026-03-14
+REV_0563,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Especially satisfied with the delivery.,positive,11,2026-02-03
+REV_0564,Books & Media,1,Worst experience ever. The product didn't match the description at all. The fast aspect could be improved.,negative,33,2026-05-06
+REV_0565,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the price.",neutral,13,2026-01-04
+REV_0566,Books & Media,3,"Average product. It works as described, but the build quality could be better. I was particularly focused on the service.",neutral,50,2026-04-05
+REV_0567,Home & Kitchen,2,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the worth, I must say it was notable.",negative,13,2026-01-20
+REV_0568,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the packaging.,negative,42,2026-05-15
+REV_0569,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the customer.,positive,6,2026-04-20
+REV_0570,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. The seller aspect could be improved.,positive,20,2026-04-01
+REV_0571,Home & Kitchen,4,"Okay product, but I feel like it is slightly overpriced for what it offers. Standard expensive experience overall.",neutral,36,2026-03-03
+REV_0572,Books & Media,3,"Not bad, not great. Standard product that meets basic expectations. Standard cheap experience overall.",neutral,46,2026-01-01
+REV_0573,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the arrived.,positive,20,2026-02-24
+REV_0574,Clothing & Fashion,5,"Great value for money. It does exactly what it says and feels premium. Regarding the build, I must say it was notable.",positive,16,2026-02-05
+REV_0575,Electronics,4,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the durable.,positive,25,2026-05-27
+REV_0576,Electronics,3,Neutral opinion. It has some good features but also a few design flaws. Standard carrier experience overall.,neutral,2,2026-03-18
+REV_0577,Home & Kitchen,2,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the customer, I must say it was notable.",negative,27,2026-03-31
+REV_0578,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard quality experience overall.,positive,34,2026-03-23
+REV_0579,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Regarding the material, I must say it was notable.",neutral,48,2026-04-25
+REV_0580,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. Standard packaging experience overall.",neutral,8,2026-02-07
+REV_0581,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the late.,positive,48,2026-02-03
+REV_0582,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard broke experience overall.",positive,39,2026-05-24
+REV_0583,Books & Media,1,"Frustrating to use. The instructions are unclear and it is very fragile. Regarding the durable, I must say it was notable.",negative,43,2026-03-24
+REV_0584,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. Standard late experience overall.,negative,22,2026-03-24
+REV_0585,Books & Media,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the money.",neutral,28,2026-02-07
+REV_0586,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. The cheap aspect could be improved.,positive,47,2026-01-29
+REV_0587,Electronics,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the sturdy, I must say it was notable.",positive,28,2026-03-20
+REV_0588,Home & Kitchen,5,Super fast shipping! The item arrived in perfect condition and is top notch. The defective aspect could be improved.,positive,30,2026-05-21
+REV_0589,Electronics,2,"It is okay. Shipping was a bit slow, but the product is acceptable. Especially satisfied with the late.",neutral,10,2026-03-07
+REV_0590,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. Standard price experience overall.,positive,24,2026-01-18
+REV_0591,Books & Media,2,"Okay product, but I feel like it is slightly overpriced for what it offers. I was particularly focused on the shipping.",neutral,24,2026-03-01
+REV_0592,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. Especially satisfied with the deal.",neutral,32,2026-02-20
+REV_0593,Home & Kitchen,2,Frustrating to use. The instructions are unclear and it is very fragile. The shipping aspect could be improved.,negative,31,2026-03-27
+REV_0594,Home & Kitchen,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the carrier.,positive,32,2026-03-02
+REV_0595,Home & Kitchen,4,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the expensive, I must say it was notable.",positive,9,2026-02-27
+REV_0596,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. Standard build experience overall.,positive,15,2026-04-17
+REV_0597,Clothing & Fashion,3,"Not bad, not great. Standard product that meets basic expectations. Standard cheap experience overall.",neutral,37,2026-02-05
+REV_0598,Books & Media,2,Neutral opinion. It has some good features but also a few design flaws. Especially satisfied with the sturdy.,neutral,41,2026-02-07
+REV_0599,Electronics,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the value.,negative,20,2026-02-17
+REV_0600,Home & Kitchen,2,Waste of money. Extremely slow shipping and the item is defective. Standard carrier experience overall.,negative,47,2026-04-24
+REV_0601,Electronics,1,"Poor build quality. The plastic feels cheap and it makes a weird noise. Regarding the durable, I must say it was notable.",negative,38,2026-03-10
+REV_0602,Books & Media,3,"Neutral opinion. It has some good features but also a few design flaws. Regarding the durable, I must say it was notable.",neutral,32,2026-02-04
+REV_0603,Clothing & Fashion,1,Very overpriced for such poor quality. I am returning it immediately. Standard money experience overall.,negative,12,2026-02-11
+REV_0604,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. Standard shipped experience overall.,positive,4,2026-02-22
+REV_0605,Books & Media,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard seller experience overall.,positive,49,2026-04-14
+REV_0606,Electronics,4,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the expensive.,positive,6,2026-05-14
+REV_0607,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Especially satisfied with the defective.,positive,24,2026-05-23
+REV_0608,Home & Kitchen,3,"It is decent for the price. Not amazing, but does the job fine. Standard sturdy experience overall.",neutral,29,2026-03-15
+REV_0609,Books & Media,4,Great value for money. It does exactly what it says and feels premium. Standard arrived experience overall.,positive,46,2026-01-24
+REV_0610,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Standard plastic experience overall.",neutral,29,2026-02-15
+REV_0611,Clothing & Fashion,3,Neutral opinion. It has some good features but also a few design flaws. I was particularly focused on the customer.,neutral,5,2026-02-01
+REV_0612,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the value.,positive,35,2026-04-07
+REV_0613,Clothing & Fashion,4,Excellent product. It works perfectly and the design is very sleek and modern. The money aspect could be improved.,positive,26,2026-01-14
+REV_0614,Clothing & Fashion,4,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the money, I must say it was notable.",positive,39,2026-01-01
+REV_0615,Electronics,1,Terrible quality. It broke within the first day of use. Do not buy! Standard helpful experience overall.,negative,15,2026-05-07
+REV_0616,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard contact experience overall.,positive,35,2026-03-04
+REV_0617,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The quality aspect could be improved.",positive,9,2026-01-10
+REV_0618,Books & Media,1,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the cheap, I must say it was notable.",negative,10,2026-02-15
+REV_0619,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. Especially satisfied with the broke.",neutral,49,2026-01-24
+REV_0620,Electronics,4,Super fast shipping! The item arrived in perfect condition and is top notch. Standard customer experience overall.,positive,30,2026-03-16
+REV_0621,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. Standard worth experience overall.,positive,6,2026-01-15
+REV_0622,Home & Kitchen,2,"The size is smaller than expected, but the quality is fine otherwise. Especially satisfied with the fast.",neutral,38,2026-04-20
+REV_0623,Books & Media,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the money.,negative,11,2026-05-07
+REV_0624,Books & Media,1,"Worst experience ever. The product didn't match the description at all. Regarding the overpriced, I must say it was notable.",negative,47,2026-01-31
+REV_0625,Clothing & Fashion,1,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the contact, I must say it was notable.",negative,40,2026-01-03
+REV_0626,Home & Kitchen,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the value.,positive,7,2026-01-02
+REV_0627,Home & Kitchen,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The service aspect could be improved.",neutral,30,2026-05-03
+REV_0628,Home & Kitchen,2,Waste of money. Extremely slow shipping and the item is defective. Standard support experience overall.,negative,50,2026-04-29
+REV_0629,Clothing & Fashion,1,Terrible quality. It broke within the first day of use. Do not buy! Especially satisfied with the cheap.,negative,43,2026-05-28
+REV_0630,Home & Kitchen,4,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the arrived.,positive,40,2026-04-07
+REV_0631,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Especially satisfied with the support.",neutral,45,2026-03-22
+REV_0632,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. The fast aspect could be improved.,positive,33,2026-02-25
+REV_0633,Books & Media,4,Best purchase I have made in a long time. Highly recommend to everyone. The price aspect could be improved.,positive,1,2026-05-10
+REV_0634,Home & Kitchen,2,Frustrating to use. The instructions are unclear and it is very fragile. I was particularly focused on the durable.,negative,9,2026-03-25
+REV_0635,Electronics,1,"Very disappointed. The product looks cheap and does not work properly. Regarding the durable, I must say it was notable.",negative,19,2026-01-02
+REV_0636,Electronics,2,Horrible purchase. Avoid this seller and product. Save your money. Standard carrier experience overall.,negative,49,2026-05-14
+REV_0637,Clothing & Fashion,3,"The product works, but the customer service was not very helpful. The shipped aspect could be improved.",neutral,17,2026-03-15
+REV_0638,Electronics,3,"It performs okay, but there are better alternatives on the market. The shipped aspect could be improved.",neutral,39,2026-01-04
+REV_0639,Home & Kitchen,3,"Average product. It works as described, but the build quality could be better. I was particularly focused on the defective.",neutral,45,2026-02-06
+REV_0640,Home & Kitchen,1,"Horrible purchase. Avoid this seller and product. Save your money. Regarding the material, I must say it was notable.",negative,28,2026-05-19
+REV_0641,Electronics,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the service, I must say it was notable.",positive,25,2026-04-20
+REV_0642,Clothing & Fashion,5,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the seller.,positive,5,2026-05-17
+REV_0643,Home & Kitchen,1,Very overpriced for such poor quality. I am returning it immediately. Standard build experience overall.,negative,30,2026-04-30
+REV_0644,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the sturdy.,positive,29,2026-03-25
+REV_0645,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the customer.,positive,49,2026-03-14
+REV_0646,Electronics,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the defective, I must say it was notable.",positive,35,2026-03-25
+REV_0647,Clothing & Fashion,3,"The product works, but the customer service was not very helpful. Especially satisfied with the contact.",neutral,10,2026-05-21
+REV_0648,Books & Media,2,I would not recommend this. It stopped working after a week of light use. The carrier aspect could be improved.,negative,36,2026-04-22
+REV_0649,Books & Media,2,"Frustrating to use. The instructions are unclear and it is very fragile. Regarding the material, I must say it was notable.",negative,37,2026-01-30
+REV_0650,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The fast aspect could be improved.",neutral,38,2026-01-18
+REV_0651,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard seller experience overall.,positive,13,2026-01-24
+REV_0652,Home & Kitchen,1,Horrible purchase. Avoid this seller and product. Save your money. The arrived aspect could be improved.,negative,39,2026-04-10
+REV_0653,Home & Kitchen,3,Neutral opinion. It has some good features but also a few design flaws. I was particularly focused on the cheap.,neutral,45,2026-04-22
+REV_0654,Books & Media,2,"The customer service was awful, and the product arrived damaged. Especially satisfied with the shipping.",negative,18,2026-02-02
+REV_0655,Home & Kitchen,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the shipping.",positive,18,2026-01-29
+REV_0656,Books & Media,2,Worst experience ever. The product didn't match the description at all. I was particularly focused on the contact.,negative,27,2026-04-08
+REV_0657,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. The support aspect could be improved.",neutral,9,2026-04-17
+REV_0658,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the quality, I must say it was notable.",positive,42,2026-05-05
+REV_0659,Books & Media,4,Excellent product. It works perfectly and the design is very sleek and modern. Standard arrived experience overall.,positive,29,2026-02-16
+REV_0660,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. I was particularly focused on the contact.",neutral,36,2026-01-02
+REV_0661,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the expensive.,positive,36,2026-01-10
+REV_0662,Home & Kitchen,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the fast, I must say it was notable.",positive,33,2026-04-30
+REV_0663,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard packaging experience overall.,positive,37,2026-05-19
+REV_0664,Books & Media,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the worth, I must say it was notable.",positive,46,2026-05-27
+REV_0665,Home & Kitchen,5,Super fast shipping! The item arrived in perfect condition and is top notch. The cost aspect could be improved.,positive,16,2026-05-25
+REV_0666,Electronics,4,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the quality.,positive,31,2026-03-15
+REV_0667,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the shipped.",positive,16,2026-03-12
+REV_0668,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard material experience overall.,positive,50,2026-03-08
+REV_0669,Electronics,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the defective, I must say it was notable.",negative,38,2026-02-07
+REV_0670,Books & Media,1,Waste of money. Extremely slow shipping and the item is defective. Standard contact experience overall.,negative,13,2026-02-12
+REV_0671,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. Regarding the shipped, I must say it was notable.",neutral,30,2026-04-13
+REV_0672,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard plastic experience overall.",positive,27,2026-05-16
+REV_0673,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the seller.,positive,34,2026-01-25
+REV_0674,Electronics,3,"Not bad, not great. Standard product that meets basic expectations. I was particularly focused on the cheap.",neutral,41,2026-03-07
+REV_0675,Clothing & Fashion,3,"It performs okay, but there are better alternatives on the market. Especially satisfied with the durable.",neutral,35,2026-03-22
+REV_0676,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard shipping experience overall.,positive,22,2026-04-25
+REV_0677,Electronics,5,"Great value for money. It does exactly what it says and feels premium. Regarding the overpriced, I must say it was notable.",positive,38,2026-01-15
+REV_0678,Clothing & Fashion,2,"Neutral opinion. It has some good features but also a few design flaws. Regarding the delivery, I must say it was notable.",neutral,42,2026-04-07
+REV_0679,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. The build aspect could be improved.,negative,40,2026-01-20
+REV_0680,Electronics,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the seller.,positive,49,2026-03-12
+REV_0681,Home & Kitchen,4,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the price.,positive,28,2026-02-15
+REV_0682,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. Standard support experience overall.,positive,39,2026-02-25
+REV_0683,Home & Kitchen,3,"It performs okay, but there are better alternatives on the market. Regarding the value, I must say it was notable.",neutral,1,2026-04-25
+REV_0684,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. Standard shipping experience overall.,negative,36,2026-04-11
+REV_0685,Electronics,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard contact experience overall.,positive,14,2026-05-19
+REV_0686,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the carrier.,positive,40,2026-01-15
+REV_0687,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the worth.,negative,41,2026-03-16
+REV_0688,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The late aspect could be improved.",positive,40,2026-01-28
+REV_0689,Clothing & Fashion,3,"It performs okay, but there are better alternatives on the market. The fast aspect could be improved.",neutral,46,2026-01-07
+REV_0690,Home & Kitchen,2,"Worst experience ever. The product didn't match the description at all. Regarding the contact, I must say it was notable.",negative,34,2026-05-08
+REV_0691,Electronics,1,Very overpriced for such poor quality. I am returning it immediately. I was particularly focused on the shipping.,negative,7,2026-04-14
+REV_0692,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the support.",positive,47,2026-01-10
+REV_0693,Clothing & Fashion,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The service aspect could be improved.,positive,11,2026-01-04
+REV_0694,Electronics,3,"The product works, but the customer service was not very helpful. Especially satisfied with the fast.",neutral,7,2026-01-28
+REV_0695,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. The build aspect could be improved.,positive,7,2026-03-25
+REV_0696,Clothing & Fashion,2,Horrible purchase. Avoid this seller and product. Save your money. The cheap aspect could be improved.,negative,4,2026-03-27
+REV_0697,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the support.,positive,37,2026-03-04
+REV_0698,Electronics,4,"Best purchase I have made in a long time. Highly recommend to everyone. Regarding the support, I must say it was notable.",positive,0,2026-01-02
+REV_0699,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard expensive experience overall.,positive,40,2026-02-06
+REV_0700,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. The return aspect could be improved.,positive,45,2026-02-16
+REV_0701,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard cheap experience overall.,positive,7,2026-02-19
+REV_0702,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the worth.,negative,3,2026-03-12
+REV_0703,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. The helpful aspect could be improved.,positive,41,2026-01-14
+REV_0704,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the refund.,positive,6,2026-01-12
+REV_0705,Electronics,1,"Frustrating to use. The instructions are unclear and it is very fragile. Regarding the material, I must say it was notable.",negative,15,2026-01-19
+REV_0706,Home & Kitchen,2,Horrible purchase. Avoid this seller and product. Save your money. The expensive aspect could be improved.,negative,49,2026-02-28
+REV_0707,Books & Media,4,Very satisfied with this purchase. High quality material and works like a charm. Standard packaging experience overall.,positive,4,2026-02-26
+REV_0708,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. The late aspect could be improved.,positive,24,2026-02-15
+REV_0709,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the cheap.,positive,44,2026-01-09
+REV_0710,Clothing & Fashion,3,"The product works, but the customer service was not very helpful. Standard build experience overall.",neutral,14,2026-03-29
+REV_0711,Clothing & Fashion,2,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the material.,negative,26,2026-01-23
+REV_0712,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. Standard broke experience overall.,negative,15,2026-03-05
+REV_0713,Books & Media,4,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the material.,positive,2,2026-01-12
+REV_0714,Electronics,1,Frustrating to use. The instructions are unclear and it is very fragile. Especially satisfied with the late.,negative,31,2026-04-26
+REV_0715,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. The late aspect could be improved.",positive,41,2026-03-03
+REV_0716,Electronics,2,Terrible quality. It broke within the first day of use. Do not buy! The refund aspect could be improved.,negative,29,2026-04-27
+REV_0717,Electronics,2,I would not recommend this. It stopped working after a week of light use. Standard cheap experience overall.,negative,24,2026-01-19
+REV_0718,Clothing & Fashion,2,"The customer service was awful, and the product arrived damaged. Standard shipped experience overall.",negative,39,2026-01-21
+REV_0719,Books & Media,1,"Terrible quality. It broke within the first day of use. Do not buy! Regarding the price, I must say it was notable.",negative,23,2026-01-11
+REV_0720,Clothing & Fashion,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. The packaging aspect could be improved.",positive,7,2026-05-19
+REV_0721,Home & Kitchen,3,"Delivery was quick, but the product packaging was a bit damaged. I was particularly focused on the durable.",neutral,43,2026-05-09
+REV_0722,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. I was particularly focused on the carrier.,positive,45,2026-05-01
+REV_0723,Electronics,3,"The size is smaller than expected, but the quality is fine otherwise. Especially satisfied with the deal.",neutral,29,2026-02-18
+REV_0724,Home & Kitchen,5,"Five stars! The customer service was also very helpful and responsive. Regarding the sturdy, I must say it was notable.",positive,44,2026-01-29
+REV_0725,Clothing & Fashion,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the defective, I must say it was notable.",positive,22,2026-05-02
+REV_0726,Clothing & Fashion,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the overpriced, I must say it was notable.",positive,41,2026-05-14
+REV_0727,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Standard cheap experience overall.,positive,19,2026-04-28
+REV_0728,Home & Kitchen,3,"The product works, but the customer service was not very helpful. The sturdy aspect could be improved.",neutral,9,2026-01-13
+REV_0729,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the material.,positive,10,2026-02-09
+REV_0730,Clothing & Fashion,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard money experience overall.,positive,35,2026-02-22
+REV_0731,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the money.",negative,19,2026-05-17
+REV_0732,Home & Kitchen,4,Absolutely love this product! The quality is outstanding and exceeded my expectations. The helpful aspect could be improved.,positive,0,2026-02-09
+REV_0733,Clothing & Fashion,2,Frustrating to use. The instructions are unclear and it is very fragile. Standard cost experience overall.,negative,46,2026-05-25
+REV_0734,Clothing & Fashion,2,Very overpriced for such poor quality. I am returning it immediately. Standard value experience overall.,negative,7,2026-05-22
+REV_0735,Electronics,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the broke.,positive,37,2026-02-19
+REV_0736,Books & Media,3,"The product works, but the customer service was not very helpful. Regarding the quality, I must say it was notable.",neutral,32,2026-01-23
+REV_0737,Home & Kitchen,4,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the worth, I must say it was notable.",positive,9,2026-04-12
+REV_0738,Home & Kitchen,1,I would not recommend this. It stopped working after a week of light use. I was particularly focused on the expensive.,negative,19,2026-03-31
+REV_0739,Books & Media,2,Frustrating to use. The instructions are unclear and it is very fragile. Standard packaging experience overall.,negative,18,2026-04-24
+REV_0740,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the support.,positive,19,2026-02-23
+REV_0741,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the value.",positive,26,2026-01-02
+REV_0742,Clothing & Fashion,3,"The product works, but the customer service was not very helpful. Especially satisfied with the support.",neutral,11,2026-02-21
+REV_0743,Home & Kitchen,2,Poor build quality. The plastic feels cheap and it makes a weird noise. I was particularly focused on the service.,negative,35,2026-05-07
+REV_0744,Books & Media,1,Worst experience ever. The product didn't match the description at all. The shipping aspect could be improved.,negative,41,2026-02-01
+REV_0745,Clothing & Fashion,2,"The product works, but the customer service was not very helpful. Standard support experience overall.",neutral,7,2026-01-08
+REV_0746,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. Especially satisfied with the carrier.,negative,40,2026-03-08
+REV_0747,Home & Kitchen,3,"Average product. It works as described, but the build quality could be better. Especially satisfied with the worth.",neutral,37,2026-02-11
+REV_0748,Home & Kitchen,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the support.,positive,26,2026-04-03
+REV_0749,Electronics,3,"Okay product, but I feel like it is slightly overpriced for what it offers. I was particularly focused on the shipped.",neutral,12,2026-05-12
+REV_0750,Home & Kitchen,1,Waste of money. Extremely slow shipping and the item is defective. Especially satisfied with the arrived.,negative,17,2026-03-19
+REV_0751,Home & Kitchen,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The carrier aspect could be improved.",neutral,49,2026-04-06
+REV_0752,Clothing & Fashion,5,Super fast shipping! The item arrived in perfect condition and is top notch. The build aspect could be improved.,positive,50,2026-02-18
+REV_0753,Electronics,2,Horrible purchase. Avoid this seller and product. Save your money. Standard late experience overall.,negative,1,2026-02-03
+REV_0754,Home & Kitchen,4,Great value for money. It does exactly what it says and feels premium. Standard money experience overall.,positive,45,2026-02-14
+REV_0755,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. The material aspect could be improved.,positive,13,2026-02-02
+REV_0756,Books & Media,5,"Best purchase I have made in a long time. Highly recommend to everyone. Regarding the customer, I must say it was notable.",positive,2,2026-04-21
+REV_0757,Electronics,4,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the fast, I must say it was notable.",positive,19,2026-01-17
+REV_0758,Clothing & Fashion,2,"Average product. It works as described, but the build quality could be better. Especially satisfied with the packaging.",neutral,1,2026-03-31
+REV_0759,Clothing & Fashion,4,Great value for money. It does exactly what it says and feels premium. The cheap aspect could be improved.,positive,36,2026-05-10
+REV_0760,Clothing & Fashion,4,Perfect fit and works beautifully. Will definitely buy from this brand again. The packaging aspect could be improved.,positive,0,2026-05-18
+REV_0761,Clothing & Fashion,1,Very disappointed. The product looks cheap and does not work properly. Standard defective experience overall.,negative,43,2026-04-23
+REV_0762,Clothing & Fashion,1,Waste of money. Extremely slow shipping and the item is defective. Standard expensive experience overall.,negative,7,2026-04-15
+REV_0763,Books & Media,1,"The customer service was awful, and the product arrived damaged. Regarding the fast, I must say it was notable.",negative,45,2026-04-03
+REV_0764,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard carrier experience overall.,positive,38,2026-04-27
+REV_0765,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. Standard defective experience overall.,negative,4,2026-02-18
+REV_0766,Books & Media,2,"Very overpriced for such poor quality. I am returning it immediately. Regarding the money, I must say it was notable.",negative,25,2026-01-27
+REV_0767,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard arrived experience overall.,positive,4,2026-02-13
+REV_0768,Books & Media,4,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the overpriced.,positive,14,2026-02-01
+REV_0769,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. Standard cost experience overall.,negative,32,2026-05-05
+REV_0770,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the delivery.,positive,1,2026-02-04
+REV_0771,Books & Media,4,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the fast, I must say it was notable.",positive,9,2026-03-25
+REV_0772,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the delivery.,positive,18,2026-02-21
+REV_0773,Electronics,4,"It performs okay, but there are better alternatives on the market. I was particularly focused on the worth.",neutral,27,2026-01-09
+REV_0774,Books & Media,2,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the helpful.,negative,2,2026-04-28
+REV_0775,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard money experience overall.",positive,31,2026-04-10
+REV_0776,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Standard helpful experience overall.,negative,3,2026-05-10
+REV_0777,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the seller.,positive,8,2026-01-12
+REV_0778,Home & Kitchen,1,"The customer service was awful, and the product arrived damaged. Standard carrier experience overall.",negative,26,2026-04-02
+REV_0779,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the durable.,positive,7,2026-03-20
+REV_0780,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Standard price experience overall.,positive,32,2026-05-26
+REV_0781,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the fast.,negative,36,2026-04-07
+REV_0782,Clothing & Fashion,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the fast, I must say it was notable.",positive,31,2026-03-28
+REV_0783,Clothing & Fashion,2,"Okay product, but I feel like it is slightly overpriced for what it offers. I was particularly focused on the sturdy.",neutral,40,2026-05-08
+REV_0784,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the sturdy.,negative,39,2026-02-27
+REV_0785,Books & Media,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the carrier.,negative,13,2026-04-20
+REV_0786,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the worth.,positive,26,2026-02-21
+REV_0787,Clothing & Fashion,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the support, I must say it was notable.",positive,31,2026-05-28
+REV_0788,Books & Media,4,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the worth.,positive,46,2026-05-25
+REV_0789,Clothing & Fashion,3,"The size is smaller than expected, but the quality is fine otherwise. Standard cheap experience overall.",neutral,27,2026-03-18
+REV_0790,Clothing & Fashion,4,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the plastic.,positive,43,2026-03-07
+REV_0791,Clothing & Fashion,3,"Not bad, not great. Standard product that meets basic expectations. The build aspect could be improved.",neutral,29,2026-03-21
+REV_0792,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. The service aspect could be improved.,positive,16,2026-01-08
+REV_0793,Electronics,2,Poor build quality. The plastic feels cheap and it makes a weird noise. Standard quality experience overall.,negative,20,2026-01-22
+REV_0794,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. Regarding the seller, I must say it was notable.",neutral,7,2026-03-02
+REV_0795,Clothing & Fashion,2,"The size is smaller than expected, but the quality is fine otherwise. Standard shipped experience overall.",neutral,49,2026-02-01
+REV_0796,Electronics,1,"The customer service was awful, and the product arrived damaged. Standard return experience overall.",negative,13,2026-02-14
+REV_0797,Home & Kitchen,1,Very overpriced for such poor quality. I am returning it immediately. Especially satisfied with the refund.,negative,20,2026-01-29
+REV_0798,Home & Kitchen,3,"It performs okay, but there are better alternatives on the market. The sturdy aspect could be improved.",neutral,1,2026-03-20
+REV_0799,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. The shipping aspect could be improved.",neutral,40,2026-03-21
+REV_0800,Books & Media,1,"The customer service was awful, and the product arrived damaged. Standard packaging experience overall.",negative,19,2026-03-07
+REV_0801,Home & Kitchen,4,Very satisfied with this purchase. High quality material and works like a charm. The overpriced aspect could be improved.,positive,50,2026-04-15
+REV_0802,Home & Kitchen,4,Best purchase I have made in a long time. Highly recommend to everyone. Standard helpful experience overall.,positive,6,2026-04-19
+REV_0803,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Standard carrier experience overall.,negative,44,2026-04-27
+REV_0804,Clothing & Fashion,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The broke aspect could be improved.,positive,20,2026-03-20
+REV_0805,Clothing & Fashion,4,"Average product. It works as described, but the build quality could be better. Especially satisfied with the durable.",neutral,50,2026-04-16
+REV_0806,Home & Kitchen,1,Very overpriced for such poor quality. I am returning it immediately. I was particularly focused on the support.,negative,12,2026-03-14
+REV_0807,Clothing & Fashion,4,Super fast shipping! The item arrived in perfect condition and is top notch. Standard plastic experience overall.,positive,1,2026-01-06
+REV_0808,Clothing & Fashion,1,Horrible purchase. Avoid this seller and product. Save your money. Standard build experience overall.,negative,25,2026-01-13
+REV_0809,Clothing & Fashion,2,"Delivery was quick, but the product packaging was a bit damaged. Regarding the money, I must say it was notable.",neutral,7,2026-05-26
+REV_0810,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard helpful experience overall.",positive,50,2026-02-18
+REV_0811,Clothing & Fashion,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard support experience overall.,positive,46,2026-03-14
+REV_0812,Home & Kitchen,3,"Not bad, not great. Standard product that meets basic expectations. The plastic aspect could be improved.",neutral,39,2026-03-02
+REV_0813,Clothing & Fashion,5,"Very satisfied with this purchase. High quality material and works like a charm. Regarding the deal, I must say it was notable.",positive,44,2026-03-24
+REV_0814,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the contact.,positive,3,2026-05-23
+REV_0815,Electronics,4,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the seller.,positive,16,2026-01-02
+REV_0816,Electronics,3,"Not bad, not great. Standard product that meets basic expectations. I was particularly focused on the expensive.",neutral,11,2026-05-29
+REV_0817,Home & Kitchen,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard seller experience overall.",positive,27,2026-05-16
+REV_0818,Home & Kitchen,5,Best purchase I have made in a long time. Highly recommend to everyone. The price aspect could be improved.,positive,27,2026-04-03
+REV_0819,Clothing & Fashion,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the worth.,positive,47,2026-03-22
+REV_0820,Clothing & Fashion,1,Waste of money. Extremely slow shipping and the item is defective. The service aspect could be improved.,negative,2,2026-02-16
+REV_0821,Books & Media,4,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the contact, I must say it was notable.",positive,28,2026-01-11
+REV_0822,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard helpful experience overall.",positive,22,2026-02-01
+REV_0823,Clothing & Fashion,4,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the material.,positive,0,2026-05-30
+REV_0824,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Regarding the plastic, I must say it was notable.",neutral,21,2026-01-25
+REV_0825,Electronics,4,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the seller.,positive,9,2026-03-24
+REV_0826,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the helpful.,positive,2,2026-03-26
+REV_0827,Home & Kitchen,2,"It performs okay, but there are better alternatives on the market. The money aspect could be improved.",neutral,3,2026-03-24
+REV_0828,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard customer experience overall.,negative,5,2026-04-13
+REV_0829,Clothing & Fashion,5,Very satisfied with this purchase. High quality material and works like a charm. Standard plastic experience overall.,positive,19,2026-01-31
+REV_0830,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the money.,positive,12,2026-05-12
+REV_0831,Electronics,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the refund.,positive,23,2026-04-19
+REV_0832,Books & Media,3,"Not bad, not great. Standard product that meets basic expectations. Regarding the customer, I must say it was notable.",neutral,41,2026-02-27
+REV_0833,Electronics,3,"It is okay. Shipping was a bit slow, but the product is acceptable. I was particularly focused on the customer.",neutral,19,2026-05-03
+REV_0834,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the overpriced.,positive,4,2026-05-22
+REV_0835,Home & Kitchen,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard late experience overall.,negative,16,2026-04-01
+REV_0836,Clothing & Fashion,3,"The size is smaller than expected, but the quality is fine otherwise. Standard delivery experience overall.",neutral,2,2026-04-11
+REV_0837,Home & Kitchen,5,Great value for money. It does exactly what it says and feels premium. Standard deal experience overall.,positive,11,2026-03-29
+REV_0838,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard value experience overall.,positive,7,2026-04-12
+REV_0839,Home & Kitchen,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the contact.,positive,44,2026-04-03
+REV_0840,Clothing & Fashion,3,"Not bad, not great. Standard product that meets basic expectations. The value aspect could be improved.",neutral,1,2026-01-29
+REV_0841,Clothing & Fashion,3,Neutral opinion. It has some good features but also a few design flaws. Standard packaging experience overall.,neutral,40,2026-04-22
+REV_0842,Clothing & Fashion,2,Frustrating to use. The instructions are unclear and it is very fragile. I was particularly focused on the build.,negative,27,2026-05-02
+REV_0843,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard broke experience overall.,positive,15,2026-05-30
+REV_0844,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. I was particularly focused on the service.,positive,31,2026-04-17
+REV_0845,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. Standard price experience overall.,negative,45,2026-03-01
+REV_0846,Books & Media,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. Especially satisfied with the seller.,positive,7,2026-05-02
+REV_0847,Clothing & Fashion,5,"Super fast shipping! The item arrived in perfect condition and is top notch. Regarding the contact, I must say it was notable.",positive,22,2026-05-01
+REV_0848,Books & Media,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Especially satisfied with the cheap.",positive,18,2026-02-03
+REV_0849,Clothing & Fashion,2,I would not recommend this. It stopped working after a week of light use. Standard seller experience overall.,negative,18,2026-02-23
+REV_0850,Books & Media,3,"Average product. It works as described, but the build quality could be better. The support aspect could be improved.",neutral,50,2026-01-26
+REV_0851,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. The overpriced aspect could be improved.,positive,16,2026-04-02
+REV_0852,Home & Kitchen,4,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the defective, I must say it was notable.",positive,7,2026-04-21
+REV_0853,Home & Kitchen,2,"Average product. It works as described, but the build quality could be better. I was particularly focused on the broke.",neutral,49,2026-01-12
+REV_0854,Electronics,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the defective.,negative,29,2026-04-23
+REV_0855,Electronics,1,Very disappointed. The product looks cheap and does not work properly. Especially satisfied with the delivery.,negative,40,2026-02-12
+REV_0856,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the money.,positive,9,2026-01-26
+REV_0857,Books & Media,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The build aspect could be improved.",neutral,15,2026-01-02
+REV_0858,Home & Kitchen,1,Very overpriced for such poor quality. I am returning it immediately. Especially satisfied with the cost.,negative,45,2026-04-06
+REV_0859,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. Especially satisfied with the material.",negative,27,2026-02-05
+REV_0860,Electronics,5,"Five stars! The customer service was also very helpful and responsive. Regarding the seller, I must say it was notable.",positive,4,2026-05-13
+REV_0861,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Standard support experience overall.,positive,36,2026-02-08
+REV_0862,Home & Kitchen,4,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard expensive experience overall.",positive,22,2026-03-22
+REV_0863,Books & Media,5,Great value for money. It does exactly what it says and feels premium. Standard plastic experience overall.,positive,50,2026-03-30
+REV_0864,Books & Media,3,"Neutral opinion. It has some good features but also a few design flaws. Regarding the value, I must say it was notable.",neutral,33,2026-02-02
+REV_0865,Home & Kitchen,1,Poor build quality. The plastic feels cheap and it makes a weird noise. Especially satisfied with the build.,negative,1,2026-02-10
+REV_0866,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. I was particularly focused on the overpriced.",positive,23,2026-01-16
+REV_0867,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the value, I must say it was notable.",positive,19,2026-04-25
+REV_0868,Clothing & Fashion,4,"It is decent for the price. Not amazing, but does the job fine. The seller aspect could be improved.",neutral,19,2026-03-31
+REV_0869,Electronics,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the plastic.,positive,33,2026-03-25
+REV_0870,Books & Media,4,"Okay product, but I feel like it is slightly overpriced for what it offers. The customer aspect could be improved.",neutral,5,2026-01-21
+REV_0871,Books & Media,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard return experience overall.,positive,35,2026-05-31
+REV_0872,Books & Media,2,"Not bad, not great. Standard product that meets basic expectations. Standard deal experience overall.",neutral,10,2026-04-17
+REV_0873,Electronics,4,Excellent product. It works perfectly and the design is very sleek and modern. The helpful aspect could be improved.,positive,29,2026-02-24
+REV_0874,Electronics,4,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the value.,positive,23,2026-01-31
+REV_0875,Home & Kitchen,3,"It is decent for the price. Not amazing, but does the job fine. I was particularly focused on the build.",neutral,18,2026-03-19
+REV_0876,Home & Kitchen,4,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the plastic, I must say it was notable.",positive,13,2026-03-14
+REV_0877,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the delivery.,positive,30,2026-04-17
+REV_0878,Clothing & Fashion,3,"Delivery was quick, but the product packaging was a bit damaged. Standard seller experience overall.",neutral,32,2026-02-05
+REV_0879,Books & Media,3,"It performs okay, but there are better alternatives on the market. I was particularly focused on the support.",neutral,14,2026-04-10
+REV_0880,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the fast.",negative,36,2026-01-07
+REV_0881,Electronics,2,"The product works, but the customer service was not very helpful. The delivery aspect could be improved.",neutral,33,2026-05-26
+REV_0882,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the delivery.,positive,50,2026-03-12
+REV_0883,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the customer.,positive,2,2026-05-31
+REV_0884,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The expensive aspect could be improved.,positive,16,2026-04-08
+REV_0885,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. The sturdy aspect could be improved.,positive,19,2026-02-09
+REV_0886,Electronics,1,Waste of money. Extremely slow shipping and the item is defective. The carrier aspect could be improved.,negative,24,2026-03-18
+REV_0887,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. I was particularly focused on the seller.,positive,12,2026-01-14
+REV_0888,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the broke.,positive,17,2026-01-30
+REV_0889,Clothing & Fashion,5,Very easy to set up and use. The build quality feels sturdy and durable. Standard customer experience overall.,positive,17,2026-01-05
+REV_0890,Clothing & Fashion,3,"Delivery was quick, but the product packaging was a bit damaged. Especially satisfied with the packaging.",neutral,36,2026-03-19
+REV_0891,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the material.,positive,34,2026-03-04
+REV_0892,Home & Kitchen,2,"Frustrating to use. The instructions are unclear and it is very fragile. Regarding the service, I must say it was notable.",negative,0,2026-02-12
+REV_0893,Clothing & Fashion,4,Very easy to set up and use. The build quality feels sturdy and durable. Standard cost experience overall.,positive,32,2026-05-30
+REV_0894,Electronics,5,"Excellent product. It works perfectly and the design is very sleek and modern. Regarding the shipped, I must say it was notable.",positive,46,2026-02-05
+REV_0895,Home & Kitchen,3,"The product works, but the customer service was not very helpful. Especially satisfied with the return.",neutral,40,2026-03-29
+REV_0896,Books & Media,5,Very easy to set up and use. The build quality feels sturdy and durable. I was particularly focused on the overpriced.,positive,1,2026-03-26
+REV_0897,Clothing & Fashion,2,"Waste of money. Extremely slow shipping and the item is defective. Regarding the fast, I must say it was notable.",negative,35,2026-04-16
+REV_0898,Books & Media,1,"Very overpriced for such poor quality. I am returning it immediately. Regarding the customer, I must say it was notable.",negative,22,2026-02-01
+REV_0899,Electronics,2,I would not recommend this. It stopped working after a week of light use. The expensive aspect could be improved.,negative,29,2026-02-01
+REV_0900,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. The service aspect could be improved.,positive,12,2026-04-02
+REV_0901,Home & Kitchen,4,Perfect fit and works beautifully. Will definitely buy from this brand again. The overpriced aspect could be improved.,positive,17,2026-01-10
+REV_0902,Books & Media,4,Perfect fit and works beautifully. Will definitely buy from this brand again. The quality aspect could be improved.,positive,17,2026-01-29
+REV_0903,Clothing & Fashion,3,"It performs okay, but there are better alternatives on the market. The defective aspect could be improved.",neutral,37,2026-01-17
+REV_0904,Home & Kitchen,4,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the sturdy.,positive,43,2026-02-19
+REV_0905,Books & Media,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Standard worth experience overall.",positive,20,2026-01-14
+REV_0906,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the value.,positive,48,2026-05-13
+REV_0907,Home & Kitchen,5,Very satisfied with this purchase. High quality material and works like a charm. Standard shipped experience overall.,positive,25,2026-01-02
+REV_0908,Clothing & Fashion,4,Best purchase I have made in a long time. Highly recommend to everyone. Standard packaging experience overall.,positive,10,2026-02-20
+REV_0909,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard shipping experience overall.,positive,16,2026-03-27
+REV_0910,Clothing & Fashion,4,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the cheap, I must say it was notable.",positive,49,2026-01-19
+REV_0911,Electronics,3,"It performs okay, but there are better alternatives on the market. Especially satisfied with the fast.",neutral,24,2026-01-09
+REV_0912,Books & Media,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard quality experience overall.,positive,6,2026-01-17
+REV_0913,Books & Media,3,"The size is smaller than expected, but the quality is fine otherwise. Standard shipped experience overall.",neutral,38,2026-03-01
+REV_0914,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. Standard fast experience overall.,negative,21,2026-01-26
+REV_0915,Electronics,3,"It is decent for the price. Not amazing, but does the job fine. Especially satisfied with the seller.",neutral,38,2026-01-04
+REV_0916,Books & Media,1,Horrible purchase. Avoid this seller and product. Save your money. Especially satisfied with the material.,negative,46,2026-05-04
+REV_0917,Home & Kitchen,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Regarding the material, I must say it was notable.",neutral,27,2026-05-30
+REV_0918,Home & Kitchen,3,"Okay product, but I feel like it is slightly overpriced for what it offers. The worth aspect could be improved.",neutral,18,2026-03-29
+REV_0919,Electronics,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. The quality aspect could be improved.,positive,22,2026-04-19
+REV_0920,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the build.,positive,38,2026-04-30
+REV_0921,Electronics,3,"Delivery was quick, but the product packaging was a bit damaged. Standard cost experience overall.",neutral,50,2026-04-27
+REV_0922,Books & Media,1,Very overpriced for such poor quality. I am returning it immediately. The quality aspect could be improved.,negative,15,2026-02-24
+REV_0923,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. Standard return experience overall.,positive,0,2026-04-03
+REV_0924,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. I was particularly focused on the arrived.,positive,1,2026-01-12
+REV_0925,Home & Kitchen,5,Great value for money. It does exactly what it says and feels premium. I was particularly focused on the durable.,positive,15,2026-05-22
+REV_0926,Clothing & Fashion,5,"Absolutely love this product! The quality is outstanding and exceeded my expectations. Regarding the sturdy, I must say it was notable.",positive,41,2026-04-08
+REV_0927,Home & Kitchen,1,Very disappointed. The product looks cheap and does not work properly. I was particularly focused on the overpriced.,negative,42,2026-04-06
+REV_0928,Clothing & Fashion,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the customer, I must say it was notable.",positive,12,2026-02-18
+REV_0929,Clothing & Fashion,2,"Okay product, but I feel like it is slightly overpriced for what it offers. The expensive aspect could be improved.",neutral,18,2026-05-18
+REV_0930,Books & Media,2,"The customer service was awful, and the product arrived damaged. I was particularly focused on the quality.",negative,46,2026-02-23
+REV_0931,Home & Kitchen,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the arrived.,positive,33,2026-05-08
+REV_0932,Books & Media,5,Super fast shipping! The item arrived in perfect condition and is top notch. Standard worth experience overall.,positive,17,2026-05-02
+REV_0933,Books & Media,2,"Delivery was quick, but the product packaging was a bit damaged. The packaging aspect could be improved.",neutral,25,2026-03-02
+REV_0934,Electronics,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the support.,positive,48,2026-02-04
+REV_0935,Home & Kitchen,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the overpriced.,positive,28,2026-04-20
+REV_0936,Electronics,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the deal.,positive,28,2026-02-15
+REV_0937,Electronics,4,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the value.,positive,14,2026-03-12
+REV_0938,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. Especially satisfied with the price.,positive,16,2026-03-26
+REV_0939,Electronics,4,Great value for money. It does exactly what it says and feels premium. Especially satisfied with the material.,positive,18,2026-03-18
+REV_0940,Clothing & Fashion,1,I would not recommend this. It stopped working after a week of light use. Standard service experience overall.,negative,14,2026-04-12
+REV_0941,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. Especially satisfied with the return.,positive,21,2026-04-29
+REV_0942,Books & Media,1,"The customer service was awful, and the product arrived damaged. Standard plastic experience overall.",negative,1,2026-05-23
+REV_0943,Home & Kitchen,5,"Perfect fit and works beautifully. Will definitely buy from this brand again. Regarding the sturdy, I must say it was notable.",positive,14,2026-03-28
+REV_0944,Electronics,5,Five stars! The customer service was also very helpful and responsive. Especially satisfied with the cheap.,positive,9,2026-02-05
+REV_0945,Electronics,2,"The customer service was awful, and the product arrived damaged. The contact aspect could be improved.",negative,24,2026-05-17
+REV_0946,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the deal.,positive,11,2026-05-22
+REV_0947,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. The service aspect could be improved.,positive,13,2026-03-14
+REV_0948,Electronics,5,"I was skeptical at first, but this is brilliant. Definitely worth the price. Regarding the fast, I must say it was notable.",positive,20,2026-02-13
+REV_0949,Books & Media,1,"I would not recommend this. It stopped working after a week of light use. Regarding the support, I must say it was notable.",negative,47,2026-05-03
+REV_0950,Books & Media,5,Very satisfied with this purchase. High quality material and works like a charm. I was particularly focused on the durable.,positive,38,2026-02-10
+REV_0951,Electronics,3,"The product works, but the customer service was not very helpful. Standard defective experience overall.",neutral,28,2026-02-06
+REV_0952,Books & Media,4,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the defective.,positive,29,2026-04-28
+REV_0953,Home & Kitchen,4,"Average product. It works as described, but the build quality could be better. I was particularly focused on the deal.",neutral,39,2026-04-11
+REV_0954,Books & Media,2,Waste of money. Extremely slow shipping and the item is defective. The return aspect could be improved.,negative,24,2026-04-28
+REV_0955,Clothing & Fashion,1,"Waste of money. Extremely slow shipping and the item is defective. Regarding the late, I must say it was notable.",negative,40,2026-03-12
+REV_0956,Electronics,2,"Average product. It works as described, but the build quality could be better. Standard broke experience overall.",neutral,4,2026-04-05
+REV_0957,Clothing & Fashion,1,Frustrating to use. The instructions are unclear and it is very fragile. Standard expensive experience overall.,negative,2,2026-05-10
+REV_0958,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. I was particularly focused on the contact.,positive,2,2026-04-12
+REV_0959,Electronics,5,Best purchase I have made in a long time. Highly recommend to everyone. Standard cheap experience overall.,positive,35,2026-01-22
+REV_0960,Clothing & Fashion,4,"It performs okay, but there are better alternatives on the market. I was particularly focused on the broke.",neutral,38,2026-01-05
+REV_0961,Electronics,5,Great value for money. It does exactly what it says and feels premium. The late aspect could be improved.,positive,9,2026-03-11
+REV_0962,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. Especially satisfied with the quality.,positive,41,2026-05-14
+REV_0963,Electronics,3,"Average product. It works as described, but the build quality could be better. Standard refund experience overall.",neutral,49,2026-01-13
+REV_0964,Electronics,5,Very satisfied with this purchase. High quality material and works like a charm. The cheap aspect could be improved.,positive,1,2026-04-18
+REV_0965,Electronics,2,"The customer service was awful, and the product arrived damaged. The build aspect could be improved.",negative,46,2026-02-12
+REV_0966,Clothing & Fashion,5,Five stars! The customer service was also very helpful and responsive. I was particularly focused on the carrier.,positive,34,2026-02-23
+REV_0967,Home & Kitchen,5,Five stars! The customer service was also very helpful and responsive. The packaging aspect could be improved.,positive,0,2026-02-14
+REV_0968,Electronics,5,Super fast shipping! The item arrived in perfect condition and is top notch. The late aspect could be improved.,positive,41,2026-03-13
+REV_0969,Books & Media,3,"It is decent for the price. Not amazing, but does the job fine. Standard packaging experience overall.",neutral,45,2026-01-27
+REV_0970,Books & Media,3,"Delivery was quick, but the product packaging was a bit damaged. Regarding the sturdy, I must say it was notable.",neutral,21,2026-02-04
+REV_0971,Books & Media,5,Super fast shipping! The item arrived in perfect condition and is top notch. I was particularly focused on the customer.,positive,32,2026-04-08
+REV_0972,Electronics,3,"Neutral opinion. It has some good features but also a few design flaws. Regarding the packaging, I must say it was notable.",neutral,15,2026-03-21
+REV_0973,Home & Kitchen,1,Worst experience ever. The product didn't match the description at all. The shipping aspect could be improved.,negative,9,2026-02-21
+REV_0974,Home & Kitchen,5,Absolutely love this product! The quality is outstanding and exceeded my expectations. I was particularly focused on the broke.,positive,33,2026-01-11
+REV_0975,Home & Kitchen,2,I would not recommend this. It stopped working after a week of light use. The price aspect could be improved.,negative,15,2026-03-29
+REV_0976,Home & Kitchen,4,Absolutely love this product! The quality is outstanding and exceeded my expectations. Especially satisfied with the durable.,positive,28,2026-02-16
+REV_0977,Clothing & Fashion,3,"Average product. It works as described, but the build quality could be better. The customer aspect could be improved.",neutral,8,2026-02-22
+REV_0978,Books & Media,5,Perfect fit and works beautifully. Will definitely buy from this brand again. Especially satisfied with the durable.,positive,10,2026-03-21
+REV_0979,Home & Kitchen,1,Worst experience ever. The product didn't match the description at all. Especially satisfied with the support.,negative,28,2026-05-28
+REV_0980,Home & Kitchen,2,"Worst experience ever. The product didn't match the description at all. Regarding the deal, I must say it was notable.",negative,24,2026-04-12
+REV_0981,Books & Media,4,Very easy to set up and use. The build quality feels sturdy and durable. The contact aspect could be improved.,positive,48,2026-01-06
+REV_0982,Clothing & Fashion,5,Best purchase I have made in a long time. Highly recommend to everyone. The worth aspect could be improved.,positive,24,2026-03-07
+REV_0983,Electronics,5,Very easy to set up and use. The build quality feels sturdy and durable. Especially satisfied with the expensive.,positive,8,2026-03-27
+REV_0984,Home & Kitchen,1,"Worst experience ever. The product didn't match the description at all. Regarding the durable, I must say it was notable.",negative,25,2026-05-06
+REV_0985,Electronics,1,I would not recommend this. It stopped working after a week of light use. Standard expensive experience overall.,negative,2,2026-04-15
+REV_0986,Home & Kitchen,2,Very disappointed. The product looks cheap and does not work properly. The support aspect could be improved.,negative,32,2026-03-31
+REV_0987,Clothing & Fashion,2,"The customer service was awful, and the product arrived damaged. Standard late experience overall.",negative,2,2026-05-03
+REV_0988,Clothing & Fashion,1,"The customer service was awful, and the product arrived damaged. I was particularly focused on the arrived.",negative,15,2026-03-07
+REV_0989,Books & Media,3,"It is okay. Shipping was a bit slow, but the product is acceptable. Regarding the delivery, I must say it was notable.",neutral,45,2026-04-12
+REV_0990,Home & Kitchen,4,"Average product. It works as described, but the build quality could be better. The plastic aspect could be improved.",neutral,32,2026-03-19
+REV_0991,Home & Kitchen,1,"I would not recommend this. It stopped working after a week of light use. Regarding the expensive, I must say it was notable.",negative,17,2026-02-06
+REV_0992,Electronics,2,I would not recommend this. It stopped working after a week of light use. The price aspect could be improved.,negative,4,2026-01-25
+REV_0993,Home & Kitchen,1,I would not recommend this. It stopped working after a week of light use. Standard refund experience overall.,negative,45,2026-02-17
+REV_0994,Clothing & Fashion,5,"Very easy to set up and use. The build quality feels sturdy and durable. Regarding the defective, I must say it was notable.",positive,12,2026-02-17
+REV_0995,Electronics,5,Excellent product. It works perfectly and the design is very sleek and modern. Standard sturdy experience overall.,positive,5,2026-02-12
+REV_0996,Clothing & Fashion,5,"Five stars! The customer service was also very helpful and responsive. Regarding the shipped, I must say it was notable.",positive,31,2026-05-03
+REV_0997,Electronics,4,"Average product. It works as described, but the build quality could be better. I was particularly focused on the shipping.",neutral,50,2026-05-30
+REV_0998,Home & Kitchen,1,"Very disappointed. The product looks cheap and does not work properly. Regarding the defective, I must say it was notable.",negative,30,2026-05-05
+REV_0999,Home & Kitchen,1,Horrible purchase. Avoid this seller and product. Save your money. I was particularly focused on the seller.,negative,15,2026-03-22
+REV_1000,Electronics,2,I would not recommend this. It stopped working after a week of light use. I was particularly focused on the service.,negative,29,2026-01-01
