@@ -7,3 +7,4 @@ nltk
 joblib
 pydantic
 python-multipart
+pypdf

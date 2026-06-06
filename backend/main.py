@@ -4,7 +4,7 @@ import io
 import pandas as pd
 import numpy as np
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import joblib
@@ -338,4 +338,122 @@ def analyze_sample():
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error loading sample dataset: {str(e)}")
+
+# AI Resume Screening Schemas and Endpoint
+from pypdf import PdfReader
+
+class CandidateScreenResponse(BaseModel):
+    name: str = ""
+    filename: str
+    match_score: float
+    matching_skills: List[str]
+    missing_skills: List[str]
+
+class ScreeningResponse(BaseModel):
+    candidates: List[CandidateScreenResponse]
+
+SKILLS_LIST = [
+    "python", "javascript", "typescript", "java", "c++", "c#", "go", "rust", "ruby", "php", "sql", "html", "css",
+    "machine learning", "deep learning", "nlp", "computer vision", "tensorflow", "pytorch", "keras", 
+    "scikit-learn", "numpy", "pandas", "scipy", "transformers", "huggingface", "llm", "rag", "embeddings",
+    "react", "angular", "vue", "next.js", "vite", "nodejs", "express", "fastapi", "flask", "django", 
+    "docker", "kubernetes", "aws", "azure", "gcp", "firebase", "mongodb", "postgresql", "mysql", "redis",
+    "git", "github", "agile", "jira", "scrum", "jenkins", "ci/cd"
+]
+
+def parse_pdf_text(file_bytes: bytes) -> str:
+    try:
+        reader = PdfReader(io.BytesIO(file_bytes))
+        text = ""
+        for page in reader.pages:
+            extracted = page.extract_text()
+            if extracted:
+                text += extracted + "\n"
+        return text
+    except Exception as e:
+        return ""
+
+@app.post("/api/screen", response_model=ScreeningResponse)
+async def screen_resumes(
+    job_description: str = Form(...),
+    files: List[UploadFile] = File(...)
+):
+    if not job_description.strip():
+        raise HTTPException(status_code=400, detail="Job Description cannot be empty.")
+    if not files:
+        raise HTTPException(status_code=400, detail="Please upload at least one resume.")
+        
+    resume_texts = []
+    candidates_info = []
+    
+    for file in files:
+        contents = await file.read()
+        text = ""
+        if file.filename.endswith('.pdf'):
+            text = parse_pdf_text(contents)
+        else:
+            text = contents.decode("utf-8", errors="ignore")
+            
+        if not text.strip():
+            text = "Empty Resume"
+            
+        resume_texts.append(text)
+        
+        # Candidate name from filename
+        name = file.filename.rsplit('.', 1)[0].replace('_', ' ').replace('-', ' ').title()
+        for suffix in [" Resume", " CV", "Resume", "CV"]:
+            if name.endswith(suffix):
+                name = name[:len(name)-len(suffix)].strip()
+        candidates_info.append({"name": name, "filename": file.filename, "text": text})
+        
+    try:
+        # Fit vectorizer temp on Job Description + Resumes
+        vectorizer_temp = PureTfidfVectorizer(max_features=1000)
+        all_docs = [job_description] + resume_texts
+        vectors = vectorizer_temp.fit_transform(all_docs)
+        
+        jd_vector = vectors[0]
+        resume_vectors = vectors[1:]
+        
+        results = []
+        for i, info in enumerate(candidates_info):
+            res_vector = resume_vectors[i]
+            # L2 normalized vectors dot product = cosine similarity
+            score = float(np.dot(jd_vector, res_vector))
+            
+            jd_lower = job_description.lower()
+            res_lower = info["text"].lower()
+            
+            matching_skills = []
+            missing_skills = []
+            
+            for skill in SKILLS_LIST:
+                if skill == "c++":
+                    pattern = r'\bc\+\+(?=[^a-zA-Z0-9]|$)'
+                elif skill == "c#":
+                    pattern = r'\bc#(?=[^a-zA-Z0-9]|$)'
+                else:
+                    pattern = r'\b' + re.escape(skill) + r'\b'
+                    
+                if re.search(pattern, jd_lower):
+                    if re.search(pattern, res_lower):
+                        matching_skills.append(skill)
+                    else:
+                        missing_skills.append(skill)
+                        
+            results.append(CandidateScreenResponse(
+                name=info["name"],
+                filename=info["filename"],
+                match_score=score,
+                matching_skills=matching_skills,
+                missing_skills=missing_skills
+            ))
+            
+        # Sort candidates by score descending
+        results.sort(key=lambda x: x.match_score, reverse=True)
+        return ScreeningResponse(candidates=results)
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error in screening pipeline: {str(e)}")
+
 
